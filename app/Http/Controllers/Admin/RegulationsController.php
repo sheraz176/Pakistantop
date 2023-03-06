@@ -58,6 +58,7 @@ class RegulationsController extends Controller
 
          $regulations = new regulations();
          $regulations->title = $request->title;
+         $regulations->slug = str_slug($request->title , "-");
          $regulations->link = $request->link;
 
          $regulations->file = $request->file->store('regulations');
@@ -86,7 +87,9 @@ class RegulationsController extends Controller
     {
 
          $regulations = regulations::find($id);
+
          $regulations->title = $request->title;
+         $regulations->slug = str_slug($request->title , "-");
          $regulations->link = $request->link;
 
         if (!empty($request->file)) {

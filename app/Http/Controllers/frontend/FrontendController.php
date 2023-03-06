@@ -48,7 +48,7 @@ class FrontendController extends Controller
       $adaba = News::where('category', 'ادب')->take(12)->get();
 
       $News = News::orderBy('created_at', 'desc')->take(4)->get();
-      $Videos = Video::orderBy('created_at', 'desc')->take(6)->get();
+      $Videos = Video::orderBy('created_at', 'desc')->take(12)->get();
       $Newslast = News::orderBy('created_at', 'asc')->take(6)->get();
       $Regulations = Regulations::orderBy('created_at', 'DESC')->take(8)->get();
         return view('main-site.home.index',compact('Videos','Newslast','News','Regulations','areas','religions','Newsone','playing',
@@ -66,8 +66,9 @@ class FrontendController extends Controller
         // dd($req->all);
         // $news= News::orderBy('id', 'desc','category', 'like', '%'.$req->input('category').'%')->get();
      $news = News::where('category', 'LIKE', '%'.$req->input('category').'%')->orderBy('category')->get();
+     $items = News::where('category', 'LIKE', '%'.$req->input('category').'%')->orderBy('category')->get();
 
-        return view('main-site.pages.search',compact('news'));
+        return view('main-site.pages.search',compact('news','items'));
     }
     public function religiouscard()
     {
@@ -124,9 +125,9 @@ class FrontendController extends Controller
     }
     public function videoDetail($id)
     {
-
+        $Videos = Video::orderBy('created_at', 'desc')->take(6)->get();
         $video = Video::find($id);
-        return view('main-site.pages.videodetail',compact('video'));
+        return view('main-site.pages.videodetail',compact('video','Videos'));
     }
     public function NewspaperDetail($id)
     {

@@ -87,10 +87,14 @@ Route::get('object/{id}', [FrontendController::class, 'objectDetail'])->name('ob
 Route::get('/About', [FrontendController::class, 'about'])->name('main-site.pages.about');
 Route::get('/Religious_Card', [FrontendController::class, 'religiouscard'])->name('main-site.pages.religiouscard');
 Route::get('/News', [FrontendController::class, 'news'])->name('main-site.pages.news');
+Route::get('/newsdetail/{id}/{slug}', [FrontendController::class, 'newsdetail'])->name('main-site.pages.news-details');
 Route::get('/newsdetail/{id}', [FrontendController::class, 'newsdetail'])->name('main-site.pages.news-details');
+
 Route::get('/Referenceinformation', [FrontendController::class, 'reference'])->name('main-site.pages.referenceinformation');
 Route::get('/ReligionandSocity', [FrontendController::class, 'religion'])->name('main-site.pages.religionandsocity');
 Route::get('/religiousdetails/{id}', [FrontendController::class, 'religiondetail'])->name('main-site.pages.religiousdetails');
+Route::get('/religiousdetails/{id}/{slug}', [FrontendController::class, 'religiondetail'])->name('main-site.pages.religiousdetails');
+
 Route::get('/Verification', [FrontendController::class, 'verification'])->name('main-site.pages.verification');
 Route::get('/Video', [FrontendController::class, 'video'])->name('main-site.pages.video');
 Route::get('/Regulations', [FrontendController::class, 'regulations'])->name('main-site.pages.regulations');

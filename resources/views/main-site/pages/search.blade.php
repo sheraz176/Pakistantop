@@ -93,11 +93,11 @@
 
                         <div class="clear mb10"></div>
                         <div class="home_box arts_box">
-                            <h3 class="urdu">پاکستان
+                            <h3 class="urdu">گرائیڈ ویو میں نتیجہ تلاش
                                  </h3>
                                  @foreach ($news as $key => $news)
                             <div class="relc_box">
-                                <a href="{{ route('main-site.pages.news-details', $news->id) }}">
+                                <a href="{{ route('main-site.pages.news-details', [$news->id,$news->slug]) }}">
                                     <img width="235" height="155" class="lazyload" src="{{ Storage::url($news->image) }}">
                                     <p class="fs16 lh32 urdu ar rtl">
                                         {{ $news->news_title }}
@@ -107,7 +107,7 @@
                             </div>
                                @endforeach
                             <div class="clear"></div>
-                            <a class="mlink urdu fs16 lh32" href="#"><i class="fa fa-angle-double-left mr5"></i> مزید مضامین</a>
+                            {{-- <a class="mlink urdu fs16 lh32" href="#"><i class="fa fa-angle-double-left mr5"></i> مزید مضامین</a> --}}
                         </div>
                         <div class="clear mb10"></div>
                         <div class="ac">
@@ -118,54 +118,23 @@
                         </div>
                         <div class="clear mb10"></div>
                         <div class="home_box cols_box">
-                            <h3 class="urdu">پاکستان کے کالم</h3>
-                            <div class="relc_box">
-                                <a href="#">
-                                    <img width="235" height="155" class="lazyload hwa" src="assets/images/pic_9d57c_1583168944.jpg" alt="">
-                                    <p class="fs16 lh32 urdu ar rtl">رابطہ پلوں کی خستہ حالی حکومتی کارکردگی پر سوالیہ نشان <span class="urdu fs14 lh28 txt_red">(ناصرعالم)</span></p>
+                            <h3 class="urdu"> List view </h3>
+                            <div class="list_hlaf_block urdu">
+                                @foreach ($items as $key => $item)
+                                <a href="{{ route('main-site.pages.news-details', [$item->id,$item->slug]) }}"><img alt="image" width="70" height="70" class="lazyload" src="{{ Storage::url($news->image) }}">
+                                    <p>{{$item->news_title }}</p>
                                 </a>
-                                <div class="clear"></div>
+                                @endforeach
                             </div>
-                            <div class="relc_box">
-                                <a href="#">
-                                    <img width="235" height="155" class="lazyload hwa" src="assets/images/pic_9d57c_1583168944.jpg" alt="">
-                                    <p class="fs16 lh32 urdu ar rtl">رابطہ پلوں کی خستہ حالی حکومتی کارکردگی پر سوالیہ نشان <span class="urdu fs14 lh28 txt_red">(ناصرعالم)</span></p>
-                                </a>
-                                <div class="clear"></div>
-                            </div>
-                            <div class="relc_box">
-                                <a href="#">
-                                    <img width="235" height="155" class="lazyload hwa" src="assets/images/pic_9d57c_1583168944.jpg" alt="">
-                                    <p class="fs16 lh32 urdu ar rtl">رابطہ پلوں کی خستہ حالی حکومتی کارکردگی پر سوالیہ نشان <span class="urdu fs14 lh28 txt_red">(ناصرعالم)</span></p>
-                                </a>
-                                <div class="clear"></div>
-                            </div>
-                            <div class="relc_box">
-                                <a href="#">
-                                    <img width="235" height="155" class="lazyload hwa" src="assets/images/pic_9d57c_1583168944.jpg" alt="">
-                                    <p class="fs16 lh32 urdu ar rtl">رابطہ پلوں کی خستہ حالی حکومتی کارکردگی پر سوالیہ نشان <span class="urdu fs14 lh28 txt_red">(ناصرعالم)</span></p>
-                                </a>
-                                <div class="clear"></div>
-                            </div>
-                            <div class="relc_box">
-                                <a href="#">
-                                    <img width="235" height="155" class="lazyload hwa" src="assets/images/pic_9d57c_1583168944.jpg" alt="">
-                                    <p class="fs16 lh32 urdu ar rtl">رابطہ پلوں کی خستہ حالی حکومتی کارکردگی پر سوالیہ نشان <span class="urdu fs14 lh28 txt_red">(ناصرعالم)</span></p>
-                                </a>
-                                <div class="clear"></div>
-                            </div>
-                            <div class="relc_box">
-                                <a href="#">
-                                    <img width="235" height="155" class="lazyload hwa" src="assets/images/pic_9d57c_1583168944.jpg" alt="">
-                                    <p class="fs16 lh32 urdu ar rtl">رابطہ پلوں کی خستہ حالی حکومتی کارکردگی پر سوالیہ نشان <span class="urdu fs14 lh28 txt_red">(ناصرعالم)</span></p>
-                                </a>
-                                <div class="clear"></div>
-                            </div>
+
+
+
+
                             <div class="clear"></div>
-                            <a class="mlink urdu fs16 lh32" href="#"><i class="fa fa-angle-double-left mr5"></i> مزید کالم</a>
+                            {{-- <a class="mlink urdu fs16 lh32" href="#"><i class="fa fa-angle-double-left mr5"></i> مزید کالم</a> --}}
                         </div>
                         <div class="clear mb20"></div>
-                        <div class="cnt_box">
+                        {{-- <div class="cnt_box">
                             <h2>Pakistan Latest News in Urdu, Articles, Photos, Videos, Local Events</h2>
                             <p>The Pakistan News section from Urdu Point allows you to have complete Pakistan Latest News, and this news contains news from all the cities of Pakistan. Any event, incident, achievement, or substantial news is regularly updated on this Pakistan News Headlines section.</p>
                             <h2>Daily Pakistan News</h2>
@@ -177,10 +146,75 @@
                             <P>At UrduPoint, we cover every Pakistan News to provide full coverage of all the events and incidents happening in Pakistan.</P>
                             <p>Pakistan was officially named the Islamic Republic of Pakistan. Pakistan is in South Asia, neighboring China, India, Iran, and Afghanistan. Pakistan has over 225.2 million population making it the second-largest Muslim population country in the world. Area wise it is the 33rd largest country with an area of 881,913 square kilometers.</p>
                             <P>Pakistan has four provinces and five rivers. And these rivers make the most fertile land in the world, the Indus delta. These fertile lands of Pakistan make it a versatile geographic area for cultivation. Enjoy all four seasons, and travel from Seaview Karachi to the K2 in Gilgit Baltistan.</P>
-                        </div>
+                        </div> --}}
                     </div>
                     <div class="side_bar fr">
-                        <form class="side_search_form" id="search_form" action="">
+
+<div id="desk_side_first" class="">
+    <div align="center" style="text-align:center; padding-bottom:5px; width:300px; margin:0 auto;">
+      <div id='Side1-banner'>
+      </div>
+    </div>
+  </div>
+  <div class="clear mb15"></div>
+  <div class="widget">
+    <div class="side_menu_item_wrap">
+      <a class="side_menu_item urdu fs17 lh34" title="Lollywood" href="#">لالی ووڈ</a>
+      <a class="side_menu_item urdu fs17 lh34" title="Bollywood" href="#">بالی ووڈ</a>
+      <a class="side_menu_item urdu fs17 lh34" title="Hollywood" href="#">ہالی ووڈ</a>
+      <a class="side_menu_item urdu fs17 lh34" title="Theater" href="#">تھیٹر</a>
+      <a class="side_menu_item urdu fs17 lh34" title="Television" href="#">ٹیلی ویژن</a>
+      <a class="side_menu_item urdu fs17 lh34" title="Music" href="#">موسیقی - میوزک</a>
+      <a class="side_menu_item urdu fs17 lh34" title="Radio" href="#">ریڈیو</a>
+      <a class="side_menu_item urdu fs17 lh34" title="Fashion" href="#">فیشن</a>
+      <a class="side_menu_item urdu fs17 lh34" title="Other" href="#">متفرق</a>
+      <a class="side_menu_item urdu fs17 lh34" title="Movies" href="#">فلمز</a>
+      <a class="side_menu_item urdu fs17 lh34" title="Gallery" href="#">خبریں</a>
+      <a class="side_menu_item urdu fs17 lh34" title="Videos" href="#">مضامین</a>
+      <a class="side_menu_item urdu fs17 lh34" title="Gallery" href="#">تصاویر</a>
+      <a class="side_menu_item urdu fs17 lh34" title="Videos" href="#">ویڈیوز</a>
+      <a class="side_menu_item urdu fs17 lh34" title="Showbiz Programs" href="#">پروگرامز</a>
+      <a class="side_menu_item urdu fs17 lh34" title="Showbiz Programs" href="#">ستارے</a>
+    </div>
+  </div>
+  <div class="clear mb15"></div>
+
+  <div class="clear mb15"></div>
+  <div align="center" style="text-align:center; padding-top:0px; padding-bottom:5px; margin:0 auto;">
+    <div id='Side2' style='margin: 0 auto;'>
+    </div>
+  </div>
+  <div class="clear mb15"></div>
+  <div class="widget">
+    <h3 class="fs18 lh36 ar rtl urdu pt5 pb5">تازہ ترین شوبز کی خبریں</h3>
+    <ul class="side_news_list">
+      @foreach ($items as $item)
+      <li>
+        <a href="{{ route('main-site.pages.news-details', $item->id) }}">
+          <div class="list-no-img">
+            <i class="fa fa-picture-o"></i>
+          </div>
+          <p class="urdu fs16 lh32 ar rtl">{{$item->news_title}} </p>
+        </a>
+      </li>
+  @endforeach
+    </ul>
+  </div>
+  <div class="clear mb15"></div>
+  <div id="desk_side_last" class="">
+    <div align="center" style="text-align:center; padding-top:5px; padding-bottom:5px; margin:0 auto;">
+      <div id="Side3"></div>
+    </div>
+    <div class="clear"></div>
+  </div>
+  <div class="clear"></div>
+  <div class="clear mb15"></div>
+  </div>
+  <div class="clear mb20"></div>
+  <div class="clear"></div>
+  </div>
+  <div class="clear"></div>
+                        {{-- <form class="side_search_form" id="search_form" action="">
                             <input name="q" class="unicode urdu fs14 lh28 ar rtl" type="text" placeholder="خبریں تلاش کیجئے‎" value="">
                             <input class="urdu fs15 lh30" type="submit" value="تلاش کیجئے">
                             <div class="clear"></div>
@@ -416,13 +450,13 @@
                                 <div class="clear"></div><a class="full fr bsbb bg_blue urdu txt_white ac fs16 lh32" onClick="manage_more_city();" id="more_city_wrap_hndlr" href="#">مزید شہر</a>
                             </ul>
                         </div>
-                        <div class="clear mb15"></div>
+                        <div class="clear mb15"></div> --}}
                         <!-- <div align="center" style="text-align:center; padding-top:0px; padding-bottom:5px; margin:0 auto;">
                             <div id='Side2' style='margin: 0 auto;'>
 
                             </div>
                         </div> -->
-                        <div class="clear mb15"></div>
+                        {{-- <div class="clear mb15"></div>
                         <div class="widget">
                             <h3 class="fs18 lh36 ar rtl urdu pt5 pb5">پاکستان کے سیاحتی مقامات</h3>
                             <a class="gall_item" href="#">
@@ -466,7 +500,7 @@
                             </a>
                             <div class="clear mb10"></div>
                             <a class="full fr bsbb bg_blue urdu txt_white ac fs16 lh32" href="#">مزید تصاویری گیلریاں</a>
-                        </div>
+                        </div> --}}
                         <div class="clear"></div>
                     </div>
                     <div class="clear"></div>

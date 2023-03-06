@@ -207,14 +207,14 @@
         <!-- SECTION 1 START  -->
         <div class="top_news_box">
             @foreach ($Newsone as $key => $news)
-            <a class="main_news" href="{{ route('main-site.pages.news-details', $news->id) }}"> <img width="450" height="300" src="{{ Storage::url($news->image) }}" alt="اقتصادی روڈ میپ سے معیشت بحال ہو گی اور عوام کو ریلیف ملے گا،وزیراعظم">
+            <a class="main_news" href="{{ route('main-site.pages.news-details',[$news->id,$news->slug]) }}"> <img width="450" height="300" src="{{ Storage::url($news->image) }}" alt="اقتصادی روڈ میپ سے معیشت بحال ہو گی اور عوام کو ریلیف ملے گا،وزیراعظم">
                 <h3 class="urdu fs22 lh44 ar rtl pad5 txt_white"> {{ $news->news_title }}</h3>
                 <p class="urdu fs15 lh30 ar rtl pad5 txt_white"> {{ $news->news_title }}</p>
             </a>
             @endforeach
             <!-- Small News Section  -->
             @foreach ($News as $key => $news)
-            <a class="small_news" href="{{ route('main-site.pages.news-details', $news->id) }}"> <img width="174" height="94" class="lazyload" src="{{ Storage::url($news->image) }}">
+            <a class="small_news" href="{{ route('main-site.pages.news-details',[$news->id,$news->slug]) }}"> <img width="174" height="94" class="lazyload" src="{{ Storage::url($news->image) }}">
                 <p class="urdu fs14 lh28 ar rtl">{{ $news->news_title }}</p>
             </a>
             @endforeach
@@ -226,7 +226,7 @@
             <div class="clear"></div>
             <div class="list_hlaf_block urdu">
                 @foreach ($Newslast as $key => $news)
-                <a href="{{ route('main-site.pages.news-details', $news->id) }}"><img alt="image" width="70" height="70" class="lazyload" src="{{ Storage::url($news->image) }}">
+                <a href="{{ route('main-site.pages.news-details',[$news->id,$news->slug]) }}"><img alt="image" width="70" height="70" class="lazyload" src="{{ Storage::url($news->image) }}">
                     <p>{{ $news->news_title }}</p>
                 </a>
                 @endforeach
@@ -246,7 +246,7 @@
         <div class="home_box sports_box"> <a title="Sports" href="sports/index.html">
             <h3 class="urdu">اخبار</h3>
             @foreach ($Regulations as $key => $Regulation)
-         <a href="{{ route('news_paper_detail', $Regulation->id) }}" class="double_big_item"><img width="400" height="200" class="full mb10 lazyload" src="{{ Storage::url($Regulation->file) }}" alt="">
+         <a href="{{ route('news_paper_detail', [$Regulation->id,$Regulation->slug]) }}" class="double_big_item"><img width="400" height="200" class="full mb10 lazyload" src="{{ Storage::url($Regulation->file) }}" alt="">
             <p class="fs16 lh32 urdu ar rtl"> {{ $Regulation->title }}  </p>
         </a>
 
@@ -260,7 +260,8 @@
 
         <!-- Section 4 Videos Box Start -->
         <div class="home_box videos_box"> <a title="Videos" href="#">
-                <h3 class="urdu">ویڈیوز</h3>
+                <h3 class="urdu">نیوز چینلز
+                </h3>
             </a>
             @foreach ($Videos as $key => $video)
             @php
@@ -283,7 +284,7 @@
         @endphp
             <div class="relc_box vid_box">
 
-                <a href="{{ route('video.detail', $video->id) }}"><img width="33" height="33" class="play_icon" src="assets/images/play_icon_video.webp"><img width="235" height="155" class="lazyload" src="{{ $thumbURL }}" alt="">
+                <a href="{{ route('video.detail', $video->id) }}"><img width="33" height="33" class="play_icon" src="./assets/images/play_icon_video.webp"><img width="235" height="155" class="lazyload" src="{{ $thumbURL }}" alt="">
                     <p class="fs16 lh32 urdu ar rtl">{{ $video->title }}</p>
                 </a>
                 <div class="clear"></div>
@@ -311,14 +312,14 @@
         <div class="home_box sports_box"> <a title="Sports" href="sports/index.html">
                 <h3 class="urdu">کھیل اور کھلاڑی</h3>
                 @foreach ($playing as $key => $item)
-             <a href="{{ route('main-site.pages.news-details', $item->id) }}" class="double_big_item"><img width="400" height="200" class="full mb10 lazyload" src="{{ Storage::url($item->image) }}" alt="">
+             <a href="{{ route('main-site.pages.news-details', [$item->id,$item->slug]) }}" class="double_big_item"><img width="400" height="200" class="full mb10 lazyload" src="{{ Storage::url($item->image) }}" alt="">
                 <p class="urdu fs16 lh32 ar rtl fl full"> {{ $item->news_title }}  </p>
             </a>
                @endforeach
             <!-- Section 3 Half Block  -->
             <div class="list_hlaf_block urdu">
                 @foreach ($playingfour as $key => $item)
-                <a href="{{ route('main-site.pages.news-details', $item->id) }}"><img width="70" height="70" class="lazyload" src="{{ Storage::url($item->image) }}" alt="">
+                <a href="{{ route('main-site.pages.news-details', [$item->id,$item->slug]) }}"><img width="70" height="70" class="lazyload" src="{{ Storage::url($item->image) }}" alt="">
                     <p>{{ $item->news_title }}</p>
                 </a>
                 @endforeach
@@ -361,7 +362,7 @@
             <div class="list_hlaf_block urdu">
 
                 @foreach ($business as $key => $item)
-                <a href="{{ route('main-site.pages.news-details', $item->id) }}"><img alt="" width="70" height="70" class="lazyload" src="{{ Storage::url($item->image) }}">
+                <a href="{{ route('main-site.pages.news-details', [$item->id,$item->slug]) }}"><img alt="" width="70" height="70" class="lazyload" src="{{ Storage::url($item->image) }}">
                     <p>{{ $item->news_title }} </p>
                 </a>
                @endforeach
@@ -382,7 +383,7 @@
                 <h3 class="urdu">موبائل فونز کی قیمتیں</h3>
             </a>
             @foreach ($mobile as $key => $item)
-            <a href="{{ route('main-site.pages.news-details', $item->id) }}" class="mob_box"> <img alt="Oppo A58x Price In Pakistan" width="80" height="120" class="lazyload" src="{{ Storage::url($item->image) }}" />
+            <a href="{{ route('main-site.pages.news-details', [$item->id,$item->slug]) }}" class="mob_box"> <img alt="Oppo A58x Price In Pakistan" width="80" height="120" class="lazyload" src="{{ Storage::url($item->image) }}" />
                 <div class="mob_cnt">
                     <p class="fl full bsbb ac fs14 txt_blue">{{ $item->news_title }}</p>
                     {{-- <p class="fl full bsbb ac fs14 txt_suc">Expected Price Rs. 39,999</p> --}}
@@ -564,7 +565,7 @@
             </a>
             @foreach ($shoesa as $key => $item)
             <div class="relc_box">
-                <a href="{{ route('main-site.pages.news-details', $item->id) }}"><img width="235" height="155" class="lazyload" src="{{ Storage::url($item->image) }}" alt="">
+                <a href="{{ route('main-site.pages.news-details', [$item->id,$item->slug]) }}"><img width="235" height="155" class="lazyload" src="{{ Storage::url($item->image) }}" alt="">
                     <p class="fs16 lh32 urdu ar rtl">{{ $item->news_title }}</p>
                 </a>
 
@@ -602,7 +603,7 @@
                 <h3 class="urdu">گاڑیوں کی قیمتیں‎</h3>
             </a>
             @foreach ($cars as $key => $item)
-            <a class="car_item" href="{{ route('main-site.pages.news-details', $item->id) }}"> <img width="180" height="130" class="lazyload" src="{{ Storage::url($item->image) }}" alt="">
+            <a class="car_item" href="{{ route('main-site.pages.news-details', [$item->id,$item->slug]) }}"> <img width="180" height="130" class="lazyload" src="{{ Storage::url($item->image) }}" alt="">
                 <p class="ac mb0">{{ $item->news_title }}</p>
             </a>
             @endforeach
@@ -625,7 +626,7 @@
                 <h3 class="urdu">موٹرسائیکلوں کی قیمتیں‎‎</h3>
             </a>
             @foreach ($bike as $key => $item)
-            <a class="bike_item" href="{{ route('main-site.pages.news-details', $item->id) }}"> <img width="120" height="85" class="lazyload" src="{{ Storage::url($item->image) }}" alt="">
+            <a class="bike_item" href="{{ route('main-site.pages.news-details', [$item->id,$item->slug]) }}"> <img width="120" height="85" class="lazyload" src="{{ Storage::url($item->image) }}" alt="">
                 <p class="ac mb0">{{ $item->news_title }}</p>
             </a>
            @endforeach
@@ -681,13 +682,13 @@
                 <h3 class="urdu">ٹیکنالوجی</h3>
             </a>
             @foreach ($technology as $key => $item)
-            <a href="{{ route('main-site.pages.news-details', $item->id) }}" class="double_big_item"><img width="400" height="200" class="full mb10 lazyload" src="{{ Storage::url($item->image) }}" alt="">
+            <a href="{{ route('main-site.pages.news-details', [$item->id,$item->slug]) }}" class="double_big_item"><img width="400" height="200" class="full mb10 lazyload" src="{{ Storage::url($item->image) }}" alt="">
                 <p class="urdu fs16 lh32 ar rtl fl full">{{ $item->news_title }}</p>
             </a>
             @endforeach
             <div class="list_hlaf_block urdu">
                 @foreach ($technologyfour as $key => $item)
-                <a href="{{ route('main-site.pages.news-details', $item->id) }}"><img alt="" width="70" height="70" class="lazyload" src="{{ Storage::url($item->image) }}" alt="">
+                <a href="{{ route('main-site.pages.news-details', [$item->id,$item->slug]) }}"><img alt="" width="70" height="70" class="lazyload" src="{{ Storage::url($item->image) }}" alt="">
                   <p>{{ $item->news_title }}   </p>
                 </a>
                 @endforeach
@@ -708,7 +709,7 @@
                 <h3 class="urdu">اسلام</h3>
             </a>
           <!--   @foreach ($islam as $key => $item)
-            <a title="Quran Majeed" class="isl_box" href="{{ route('main-site.pages.news-details', $item->id) }}"> <img width="80" height="80" class="lazyload" src="{{ Storage::url($item->image) }}" alt="Quran Majeed" />
+            <a title="Quran Majeed" class="isl_box" href="{{ route('main-site.pages.news-details', [$item->id,$item->slug]) }}"> <img width="80" height="80" class="lazyload" src="{{ Storage::url($item->image) }}" alt="Quran Majeed" />
                 <p class="urdu ac rtl"> {{ $item->news_title }}</p>
             </a>
             @endforeach -->
@@ -717,7 +718,7 @@
 
             <div class="list_hlaf_block urdu">
                 @foreach ($islam as $key => $item)
-                <a href="{{ route('main-site.pages.news-details', $item->id) }}"><img alt="Ramzan Ul Mubarak Aur Uss Ke Adaab" width="70" height="70" class="lazyload" src="{{ Storage::url($item->image) }}">
+                <a href="{{ route('main-site.pages.news-details', [$item->id,$item->slug]) }}"><img alt="Ramzan Ul Mubarak Aur Uss Ke Adaab" width="70" height="70" class="lazyload" src="{{ Storage::url($item->image) }}">
                     <p> {{ $item->news_title }}</p>
                 </a>
                  @endforeach
@@ -742,7 +743,7 @@
             </a>
              @foreach ($dilcasab as $key => $item)
             <div class="relc_box2">
-                <a href="{{ route('main-site.pages.news-details', $item->id) }}
+                <a href="{{ route('main-site.pages.news-details', [$item->id,$item->slug]) }}
                     "><img width="170" height="112" class="lazyload" src="{{ Storage::url($item->image) }}" alt="">
                     <p class="fs16 lh32 urdu ar rtl">{{ $item->news_title }}  </p>
                 </a>
@@ -751,7 +752,7 @@
            @endforeach
             <div class="list_hlaf_block urdu">
                 @foreach ($dilcasabfour as $key => $item)
-                <a href="{{ route('main-site.pages.news-details', $item->id) }}"><img alt="" width="70" height="70" class="lazyload" src="{{ Storage::url($item->image) }}">
+                <a href="{{ route('main-site.pages.news-details', [$item->id,$item->slug]) }}"><img alt="" width="70" height="70" class="lazyload" src="{{ Storage::url($item->image) }}">
                     <p>{{ $item->news_title }}  </p>
                 </a>
                 @endforeach
@@ -769,7 +770,7 @@
                 <h4 class="boy_head urdu fs18 lh36 txt_white ac rtl pad5">لڑکوں کے اسلامی نام</h4>
                 <div class="clear mb10"></div>
                 @foreach ($boys_name as $key => $item)
-                <a class="name_item urdu" href="{{ route('main-site.pages.news-details', $item->id) }}"><img width="16" height="16" src="{{ Storage::url($item->image) }}                    ">{{ $item->news_title }}
+                <a class="name_item urdu" href="{{ route('main-site.pages.news-details', [$item->id,$item->slug]) }}"><img width="16" height="16" src="{{ Storage::url($item->image) }}                    ">{{ $item->news_title }}
                 </a>
                @endforeach
             </div>
@@ -777,7 +778,7 @@
                 <h4 class="girl_head urdu fs18 lh36 txt_white ac rtl pad5">لڑکیوں کے اسلامی نام</h4>
                 <div class="clear mb10"></div>
                 @foreach ($girls_name as $key => $item)
-                <a class="name_item urdu" href="{{ route('main-site.pages.news-details', $item->id) }}"><img width="16" height="16" src="{{ Storage::url($item->image) }} ">
+                <a class="name_item urdu" href="{{ route('main-site.pages.news-details', [$item->id,$item->slug]) }}"><img width="16" height="16" src="{{ Storage::url($item->image) }} ">
                      {{ $item->news_title }}
                 </a>
                 @endforeach
@@ -802,7 +803,7 @@
                 <h3 class="urdu">پکوان - کھانے کی تراکیب</h3>
             </a>
             @foreach ($dinner as $key => $item)
-            <a class="cook_box" href="{{ route('main-site.pages.news-details', $item->id) }}"> <img width="163" height="123" class="lazyload" src="{{ Storage::url($item->image) }}">
+            <a class="cook_box" href="{{ route('main-site.pages.news-details', [$item->id,$item->slug]) }}"> <img width="163" height="123" class="lazyload" src="{{ Storage::url($item->image) }}">
                 <p class="urdu fs15 ac rtl full bsbb lh30">{{ $item->news_title }} </p>
             </a>
             @endforeach
@@ -858,7 +859,7 @@
             </a>
             <div class="list_hlaf_block urdu">
                 @foreach ($childeren as $key => $item)
-                <a href="{{ route('main-site.pages.news-details', $item->id) }}"><img alt="Chapar Phar Kar" width="70" height="70" class="lazyload" src="{{ Storage::url($item->image) }}">
+                <a href="{{ route('main-site.pages.news-details', [$item->id,$item->slug]) }}"><img alt="Chapar Phar Kar" width="70" height="70" class="lazyload" src="{{ Storage::url($item->image) }}">
                     <p> {{ $item->news_title }}</p>
                 </a>
                 @endforeach
@@ -911,7 +912,7 @@
              @foreach ($girls as $key => $item)
             <div class="relc_box">
 
-                <a href="{{ route('main-site.pages.news-details', $item->id) }}"><img width="235" height="155" class="lazyload" src="{{ Storage::url($item->image) }}" alt="Mufeed Totkay">
+                <a href="{{ route('main-site.pages.news-details', [$item->id,$item->slug]) }}"><img width="235" height="155" class="lazyload" src="{{ Storage::url($item->image) }}" alt="Mufeed Totkay">
                     <p class="fs16 lh32 urdu ar rtl">{{ $item->news_title }} </p>
                 </a>
 
@@ -945,7 +946,7 @@
              @foreach ($health as $key => $item)
             <div class="relc_box">
 
-                <a href="{{ route('main-site.pages.news-details', $item->id) }}"><img width="235" height="155" class="lazyload" src="{{ Storage::url($item->image) }}" alt="">
+                <a href="{{ route('main-site.pages.news-details', [$item->id,$item->slug]) }}"><img width="235" height="155" class="lazyload" src="{{ Storage::url($item->image) }}" alt="">
                     <p class="fs16 lh32 urdu ar rtl">  {{ $item->news_title }}    </p>
                 </a>
 
@@ -978,7 +979,7 @@
                 <h3 class="urdu">کتابیں</h3>
             </a>
             @foreach ($books as $key => $item)
-            <a class="book_item" href="{{ route('main-site.pages.news-details', $item->id) }}"><img width="230" height="90" class="lazyload" src="{{ Storage::url($item->image) }}" alt="" />
+            <a class="book_item" href="{{ route('main-site.pages.news-details', [$item->id,$item->slug]) }}"><img width="230" height="90" class="lazyload" src="{{ Storage::url($item->image) }}" alt="" />
                 <p class="urdu ac rtl"><span class="txt_blue">  ({{ $item->news_title }})</span></p>
             </a>
            @endforeach
@@ -1018,7 +1019,7 @@
             </a>
             <div class="list_hlaf_block urdu">
                 @foreach ($mazaja as $key => $item)
-                <a href="{{ route('main-site.pages.news-details', $item->id) }}"><img alt="" width="70" height="70" class="lazyload" src="{{ Storage::url($item->image) }}">
+                <a href="{{ route('main-site.pages.news-details', [$item->id,$item->slug]) }}"><img alt="" width="70" height="70" class="lazyload" src="{{ Storage::url($item->image) }}">
                     <p>{{ $item->news_title }} </p>
                 </a>
                  @endforeach
@@ -1044,7 +1045,7 @@
             </a>
             <div class="list_hlaf_block urdu">
                 @foreach ($adaba as $key => $item)
-                <a href="{{ route('main-site.pages.news-details', $item->id) }}"><img alt="Rait" width="70" height="70" class="lazyload" src="{{ Storage::url($item->image) }}">
+                <a href="{{ route('main-site.pages.news-details', [$item->id,$item->slug]) }}"><img alt="Rait" width="70" height="70" class="lazyload" src="{{ Storage::url($item->image) }}">
                     <p> {{ $item->news_title }}</p>
                 </a>
                 @endforeach
@@ -1110,13 +1111,7 @@
             </div>
              @endforeach
 
-            <div class="boxgrid">
-                <a href="#"><img alt="کراچی، امیر جماعت اسلامی پاکستان سراج الحق باغ مصطفی لطیف آباد میں .." width="145" height="113" class="lazyload" src="assets/images/pic_f0448_1672699484.jpg">
-                    <div class="boxcaption aj urdu fs10 rtl txt_white lh20">کراچی، امیر جماعت اسلامی پاکستان سراج الحق باغ مصطفی لطیف آباد میں بلدیاتی ورکرز کنونشن سے خطاب کر رہے ہیں۔</div>
-                </a>
-            </div> <a title="Today Photos" class="urdu fs14 lh28 pad5 bsbb txt_red full fl ac" href="#" style="background: #f6f6f6;">مزید تصاویر</a>
-            <div class="clear"></div>
-        </div>
+
         <div class="clear mb15"></div>
         <div class="side_menu_item_wrap"> <a class="side_menu_item urdu fs17 lh34" title="" href="#">اخبار</a> <a class="side_menu_item urdu fs17 lh34" title="" href="#">الیکشن</a> <a class="side_menu_item urdu fs17 lh34" title="" href="#">پاکستان</a> <a class="side_menu_item urdu fs17 lh34" title="" href="#">انٹرنیشنل</a> <a class="side_menu_item urdu fs17 lh34" title="" href="poetry/index.html">شاعری</a> <a class="side_menu_item urdu fs17 lh34" title="" href="#">مزاح</a> <a class="side_menu_item urdu fs17 lh34" title="" href="#">بچے</a> <a class="side_menu_item urdu fs17 lh34" title="" href="#">خواتین</a> <a class="side_menu_item urdu fs17 lh34" title="" href="#">پکوان</a> <a class="side_menu_item urdu fs17 lh34" title="" href="#">شوبز</a> <a class="side_menu_item urdu fs17 lh34" title="" href="#">آپکا دن</a> <a class="side_menu_item urdu fs17 lh34" title="" href="#">کھیل</a> <a class="side_menu_item urdu fs17 lh34" title="" href="#">اسلام</a> <a class="side_menu_item urdu fs17 lh34" title="" href="#">صحت</a> <a class="side_menu_item urdu fs17 lh34" title="" href="#">کتابیں</a> <a class="side_menu_item urdu fs17 lh34" title="" href="#">ٹیکنالوجی</a> <a class="side_menu_item urdu fs17 lh34" title="" href="#">کاروبار</a> <a class="side_menu_item urdu fs17 lh34" title="" href="#">موبائل</a> <a class="side_menu_item urdu fs17 lh34" title="" href="#">ڈکشنری</a> <a class="side_menu_item urdu fs17 lh34" title="" href="#">دلچسپ و عجیب</a> <a class="side_menu_item urdu fs17 lh34" title="" href="#">ویڈیوز</a> <a class="side_menu_item urdu fs17 lh34" title="" href="#">موسم</a> </div>
         <div class="clear mb15"></div>

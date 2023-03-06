@@ -2,6 +2,13 @@
 
 @section('title')
     <title> | Videos</title>
+
+    <style>
+        .article iframe{
+            width: 100% !important;
+            height: 400px !important;
+        }
+        </style>
 @endsection
 @section('content')
 <div class="page-header small-page-header">
@@ -31,7 +38,7 @@
 
 
 
-                <div class="info">
+                <div class="info" style="font-weight:800;background-color:rgb(10, 248, 10);color:white;padding:20px">
                     <p>{{ $video->created_at }}</p>
                     <span>{{ $video->title }}</span>
                 </div>
@@ -41,7 +48,54 @@
     </div>
 </div>
 
+ <!-- Section 4 Videos Box Start -->
+ <div class="home_box videos_box"> <a title="Videos" href="#">
+    <h3 class="urdu">متعلقہ نیوز چینلز</h3>
+</a>
+@foreach ($Videos as $key => $video)
+@php
 
+$embedCode = $video->video_url;
+
+preg_match('/src="([^"]+)"/', $embedCode, $match);
+
+// Extract video url from embed code
+$videoURL = $match[1];
+$urlArr = explode('/', $videoURL);
+$urlArrNum = count($urlArr);
+
+// YouTube video ID
+$youtubeVideoId = $urlArr[$urlArrNum - 1];
+
+// Generate youtube thumbnail url
+$thumbURL = 'http://img.youtube.com/vi/' . $youtubeVideoId . '/0.jpg';
+
+@endphp
+<div class="relc_box vid_box">
+
+    <a href="{{ route('video.detail', $video->id) }}"><img width="33" height="33" class="play_icon" src=" {{asset('pakistantop/assets/images/play_icon_video.webp')}}"><img width="235" height="155" class="lazyload" src="{{ $thumbURL }}" alt="">
+        <p class="fs16 lh32 urdu ar rtl">{{ $video->title }}</p>
+    </a>
+    <div class="clear"></div>
+</div>
+@endforeach
+
+<div class="clear mb10"></div>
+<ul class="box_menu urdu">
+    <li><a title="Videos" href="#">ویڈیوز</a></li>
+    <li><a title="Funny Videos" href="#">مزاحیہ </a></li>
+    <li><a title="Khwabon Ki Tabeer Videos" href="#">خوابوں کی تعبیر</a></li>
+    <li><a title="Islamic Videos" href="#">اسلام</a></li>
+    <li><a title="Urdu Stories Videos" href="videos/urdu-stories.html">اردو کہانیاں</a></li>
+    <li><a title="Showbiz Videos" href="#">شوبز</a></li>
+    <li><a title="Interviews Videos" href="#">انٹرویوز</a></li>
+    <li><a title="Sports Videos" href="#">کھیل</a></li>
+    <li><a title="Political Videos" href="#">سیاسی</a></li>
+</ul>
+<div class="clear mb10"></div>
+</div>
+<div class="clear"></div>
+<!-- Section 4 Videos Box End -->
 
 
 

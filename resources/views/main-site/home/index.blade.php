@@ -76,39 +76,94 @@
             <div class="swiper-wrapper">
                 <div class="swiper-slide swiper-overlay" style="background-image:url(https://cdn.pixabay.com/photo/2016/02/13/13/11/oldtimer-1197800_960_720.jpg)">
                     <div class="swiper-slider-text">
-                        <h2>Innovation Through</h2>
-                        <p>We create premium designs, technology, mobile & digital, ecommerce campaigns.</p>
+                        <h2>Transport Used For Traveling</h2>
+                        <p>A car is a means of transport used for traveling from one place to another.</p>
                         <div class="btns">
-                            <a href="#" class="theme-btn" tabindex="-1">Explore work</a>
+                            <a href="https://pakpropertyportal.com/"  target="blank_" class="theme-btn" tabindex="-1">Explore traveling</a>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide swiper-overlay" style="background-image:url(https://cdn.pixabay.com/photo/2016/10/22/20/34/wines-1761613_960_720.jpg)">
-
+                    <div class="swiper-slider-text">
+                        <h2>Fruits and vegetables</h2>
+                        <p>Fruits and vegetables contain important vitamins, minerals and plant chemicals.</p>
+                        <div class="btns">
+                            <a href="https://pakpropertyportal.com/"  target="blank_" class="theme-btn" tabindex="-1">Explore vegetables</a>
+                        </div>
+                    </div>
                 </div>
                 <div class="swiper-slide swiper-overlay" style="background-image:url(https://cdn.pixabay.com/photo/2015/11/19/21/10/glasses-1052010_960_720.jpg)">
-
+                    <div class="swiper-slider-text">
+                        <h2>books from female authors</h2>
+                        <p>These books from female authors are a sure-fire way to beat those winter blues. 7 Books by Women Authors for Your Winter Reading List.</p>
+                        <div class="btns">
+                            <a href="https://pakpropertyportal.com/"  target="blank_" class="theme-btn" tabindex="-1">Explore Books</a>
+                        </div>
+                    </div>
                 </div>
                 <div class="swiper-slide swiper-overlay" style="background-image:url(https://cdn.pixabay.com/photo/2016/01/05/13/58/apple-1122537_960_720.jpg)">
-
+                    <div class="swiper-slider-text">
+                        <h2>Fruits and vegetables</h2>
+                        <p>Fruits and vegetables contain important vitamins, minerals and plant chemicals.</p>
+                        <div class="btns">
+                            <a href="https://pakpropertyportal.com/"  target="blank_" class="theme-btn" tabindex="-1">Explore vegetables</a>
+                        </div>
+                    </div>
                 </div>
                 <div class="swiper-slide swiper-overlay" style="background-image:url(https://cdn.pixabay.com/photo/2017/02/02/14/04/grapes-2032838_960_720.jpg)">
-
+                    <div class="swiper-slider-text">
+                        <h2>Fruits and vegetables</h2>
+                        <p>Fruits and vegetables contain important vitamins, minerals and plant chemicals.</p>
+                        <div class="btns">
+                            <a href="https://pakpropertyportal.com/"  target="blank_" class="theme-btn" tabindex="-1">Explore vegetables</a>
+                        </div>
+                    </div>
                 </div>
                 <div class="swiper-slide swiper-overlay" style="background-image:url(https://cdn.pixabay.com/photo/2016/01/02/02/03/orange-1117645_960_720.jpg)">
-
+                    <div class="swiper-slider-text">
+                        <h2>Fruits and vegetables</h2>
+                        <p>Fruits and vegetables contain important vitamins, minerals and plant chemicals.</p>
+                        <div class="btns">
+                            <a href="https://pakpropertyportal.com/"  target="blank_" class="theme-btn" tabindex="-1">Explore vegetables</a>
+                        </div>
+                    </div>
                 </div>
                 <div class="swiper-slide swiper-overlay" style="background-image:url(https://cdn.pixabay.com/photo/2016/06/29/17/14/drink-1487304_960_720.jpg)">
-
+                    <div class="swiper-slider-text">
+                        <h2>Fruits and vegetables</h2>
+                        <p>Fruits and vegetables contain important vitamins, minerals and plant chemicals.</p>
+                        <div class="btns">
+                            <a href="https://pakpropertyportal.com/"  target="blank_" class="theme-btn" tabindex="-1">Explore vegetables</a>
+                        </div>
+                    </div>
                 </div>
                 <div class="swiper-slide swiper-overlay" style="background-image:url(https://cdn.pixabay.com/photo/2020/05/16/17/23/cycling-5178398_960_720.jpg)">
-
+                    <div class="swiper-slider-text">
+                        <h2>Fruits and vegetables</h2>
+                        <p>Fruits and vegetables contain important vitamins, minerals and plant chemicals.</p>
+                        <div class="btns">
+                            <a href="https://pakpropertyportal.com/"  target="blank_" class="theme-btn" tabindex="-1">Explore vegetables</a>
+                        </div>
+                    </div>
                 </div>
                 <div class="swiper-slide swiper-overlay" style="background-image:url(https://cdn.pixabay.com/photo/2014/02/08/17/32/cricket-262180_960_720.jpg)">
-
+                    <div class="swiper-slider-text">
+                        <h2>Pakistan Super League </h2>
+                        <p>The Pakistan Super League (PSL) is a professional Twenty20 cricket league contested by six teams representing six cities of Pakistan. </p>
+                        <div class="btns">
+                            <a href="https://pakpropertyportal.com/"  target="blank_" class="theme-btn" tabindex="-1">Explore Cricket</a>
+                        </div>
+                    </div>
                 </div>
                 <div class="swiper-slide swiper-overlay" style="background-image:url(https://cdn.pixabay.com/photo/2015/08/09/13/30/kingfisher-881594_960_720.jpg)">
-
+                    <div class="swiper-slider-text">
+                        <h2>Animals play </h2>
+                        <p>
+                            Animals play an essential role in human life and planet earth. Ever since an early time, humans have been using animals for their benefit.</p>
+                        <div class="btns">
+                            <a href="https://pakpropertyportal.com/"  target="blank_" class="theme-btn" tabindex="-1">Explore Animals</a>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="swiper-button-next swiper-button-white"></div>
@@ -813,10 +868,10 @@
                 <a href="#"> <img width="70" height="70" class="lazyload" src="assets/images/sslogo.jpg" alt="" border="0"> </a>
                 <a href="#"> <img width="70" height="70" class="lazyload" src="assets/images/ssslogo.png" alt="" border="0"> </a>
                 <a href="#"> <img width="70" height="70" class="lazyload" src="assets/images/sssslogo.jpg" alt="" border="0"> </a>
-                <a href="#"> <img width="70" height="70" class="lazyload" src="assets/images/toyota.webp" alt="" border="0"> </a>
-                <a href="#"> <img width="70" height="70" class="lazyload" src="assets/images/slogo.png" alt="" border="0"> </a>
-                <a href="#"> <img width="70" height="70" class="lazyload" src="assets/images/ssslogo.png" alt="" border="0"> </a>
-                <a href="#"> <img width="70" height="70" class="lazyload" src="assets/images/toyota.webp" alt="" border="0"> </a>
+                <a href="#"> <img width="70" height="70" class="lazyload" src="https://cf.ltkcdn.net/best/images/std-xs/313762-340x226-ford-logo-new.jpg" alt="" border="0"> </a>
+                <a href="#"> <img width="70" height="70" class="lazyload" src="https://www.carlogos.org/car-logos/mazda-logo.png" alt="" border="0"> </a>
+                <a href="#"> <img width="70" height="70" class="lazyload" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFxjzTYY2O232-AvhP6e_I5fIDKO-Bq7o4cw&usqp=CAU" alt="" border="0"> </a>
+                <a href="#"> <img width="70" height="70" class="lazyload" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc3lAbcZVhzy4NAxrW2QQK-g-rcfb8foF9KOkbuoXbcNBv0gCpAKOT8AwAEFtlw76g-00&usqp=CAU" alt="" border="0"> </a>
             </div>
         </div>
         <!-- Section 11 Car Prices End -->
@@ -837,10 +892,10 @@
                 <a href="#"> <img width="62" height="62" class="lazyload" src="assets/images/bbblogo.png" alt="" border="0"> </a>
                 <a href="#"> <img width="62" height="62" class="lazyload" src="assets/images/bbbblogo.png" alt="" border="0"> </a>
                 <a href="#"> <img width="62" height="62" class="lazyload" src="assets/images/b5logo.png" alt="" border="0"> </a>
-                <a href="#"> <img width="62" height="62" class="lazyload" src="assets/images/logo-honda.jpg" alt="" border="0"> </a>
-                <a href="#"> <img width="62" height="62" class="lazyload" src="assets/images/blogo.png" alt="" border="0"> </a>
-                <a href="#"> <img width="62" height="62" class="lazyload" src="assets/images/bblogo.png" alt="" border="0"> </a>
-                <a href="#"> <img width="62" height="62" class="lazyload" src="assets/images/logo-honda.jpg" alt="" border="0"> </a>
+                <a href="#"> <img width="62" height="62" class="lazyload" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSFxZuBTg9sjUfQo1m3m_raWN67gTQEjPuV3UAJhiDLNlR2lm1JM07P0QBriUBu4W01jA&usqp=CAU" alt="" border="0"> </a>
+                <a href="#"> <img width="62" height="62" class="lazyload" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8Su-VUjbd4ip1HR3rfNMHe1I-3CBPju07eQ&usqp=CAU" alt="" border="0"> </a>
+                <a href="#"> <img width="62" height="62" class="lazyload" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_zxPSkGfKZCab3oMAbZjP1t3I7Stnzh3WMA&usqp=CAU" alt="" border="0"> </a>
+                <a href="#"> <img width="62" height="62" class="lazyload" src="https://driver.pk/wp-content/uploads/2016/09/Road-Prince-logo.jpg" alt="" border="0"> </a>
             </div>
         </div>
         <div id="daily_price_box_wrap"></div>

@@ -1,6 +1,6 @@
 <header class="header_ur"> <span id="menu_hndlr" class="menu_hndlr">
     <i onclick="show_menu_mobile();" class="fa fa-bars" style="color: #121a21 !important;"></i></span>
-    <a id="mob_logo" href=""><img class="vam mt5" height="42" src=" {{asset('pakistantop/assets/images/logo-org.png')}} " alt=""></a>
+    <a id="mob_logo" href=""><img class="vam mt5" height="42" src=" {{asset('pakistantop/assets/images/pak_top.png')}} " alt=""></a>
 
 
     <ul id="nav_wrap" class="main_nav">

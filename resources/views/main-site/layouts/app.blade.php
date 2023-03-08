@@ -51,7 +51,7 @@
                     @endif --}}
                     <div class="header set-flex-items-nav" style="position: relative;">
                         <div class="hlogo_box">
-                            <a target="_top" href="{{route('main-site.home.index')}}"> <img height="60px" src="{{asset('pakistantop/assets/images/logo-org.png')}}" alt=""> </a>
+                            <a target="_top" href="{{route('main-site.home.index')}}"> <img height="60px" src="{{asset('pakistantop/assets/images/pak_top.png')}}" alt=""> </a>
 
                         </div>
                         <div class="set-font-text set-d-flex">

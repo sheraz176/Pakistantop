@@ -3,8 +3,8 @@
 <div class="app-header1 header py-1 d-flex">
     <div class="container-fluid">
         <div class="d-flex">
-            <a class="header-brand" href="javascript:void(0)">
-                <img src="{{asset('pakistantop/assets/images/logo-org.png')}}" class="header-brand-img" alt="">
+            <a class="header-brand" href="/" target="blank_">
+                <img src="{{asset('pakistantop/assets/images/pak_top.png')}}" class="header-brand-img" alt="">
             </a>
 
             <a aria-label="Hide Sidebar" class="app-sidebar__toggle" data-toggle="sidebar" href="#"></a>
@@ -24,7 +24,7 @@
 
                 <div class="dropdown ">
                     <a href="#" class="nav-link pr-0 leading-none user-img" data-toggle="dropdown">
-                        <img src="{{asset('pakistantop/assets/images/logo-org.png')}}" alt="profile-img"
+                        <img src="{{asset('pakistantop/assets/images/favicon.png')}}" alt="profile-img"
                             class="avatar avatar-md brround">
                     </a>
 

@@ -11,11 +11,14 @@ use Illuminate\Support\Facades\Auth;
 class CustomAuthController extends Controller
 {
 
+    public function HrcabcEpakistanTop()
+    {
+        return view('auth.HrcabcEpakistanTop');
+    }
     public function index()
     {
         return view('auth.clogin');
     }
-
 
     public function customLogin(Request $request)
     {

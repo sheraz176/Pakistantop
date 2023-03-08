@@ -2,7 +2,7 @@
     <div class="app-sidebar__user clearfix">
         <div class="dropdown user-pro-body">
             <div>
-                <img src="{{asset('pakistantop/assets/images/logo-org.png')}}" alt="user-img"
+                <img src="{{asset('pakistantop/assets/images/favicon.png')}}" alt="user-img"
                     class="avatar avatar-lg brround">
                 <a href="javascript:void(0)" class="profile-img">
                     <span class="fa fa-pencil" aria-hidden="true"></span>

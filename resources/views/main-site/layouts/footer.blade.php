@@ -6,7 +6,7 @@
     <div class="footer_top">
         <div class="ftr_logo_block">
             <div class="ftr_logo">
-                <a href="#"> <img height="42px" src="{{asset('pakistantop/assets/images/logo-org.png')}}" alt=""> </a>
+                <a href="#"> <img height="42px" src="{{asset('pakistantop/assets/images/pak_top.png')}}" alt=""> </a>
             </div>
             <div class="ftr_social_linkss">
                 <span>

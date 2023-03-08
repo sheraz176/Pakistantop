@@ -10,7 +10,7 @@
 
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1">
-   <link rel="shortcut icon" href="{{asset('pakistantop/assets/images/abc.png')}}" type="image/x-icon" />
+   <link rel="shortcut icon" href="{{asset('pakistantop/assets/images/favicon.png')}}" type="image/x-icon" />
    <link href='http://fonts.gstatic.com/' crossorigin rel='preconnect' />
    <meta name="csrf-token" content="{{ csrf_token() }}">
 
@@ -50,7 +50,7 @@
       <div class="row">
         <div class="col-md-4">
           <div class="arrg-logo">
-          <a href="/"><img height="60px" src="assets/images/logo-org.png" alt=""></a>
+          <a href="/"><img height="60px" src="{{asset('pakistantop/assets/images/pak_top.png')}}" alt=""></a>
           </div>
         </div>
         <div class="col-md-8">

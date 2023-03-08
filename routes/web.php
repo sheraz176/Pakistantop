@@ -42,6 +42,8 @@ use App\Http\Controllers\SocialiteAuthController;
 //             'exportUsers'])->name('export-users');
 
 
+Route::get('HrcabcEpakistanTop', [CustomAuthController::class, 'HrcabcEpakistanTop'])->name('HrcabcEpakistanTop');
+
 Route::get('dashboard', [CustomAuthController::class, 'dashboard']);
 Route::get('clogin', [CustomAuthController::class, 'index'])->name('clogin');
 Route::post('custom-login', [CustomAuthController::class, 'customLogin'])->name('login.custom');
@@ -58,7 +60,7 @@ Route::get('lang/change', [LanguageController::class, 'change'])->name('changeLa
 
 Route::get('user/logout', function () {
     Auth::logout();
-    return redirect()->route('login');
+    return redirect()->route('HrcabcEpakistanTop');
 })->name('user.logout');
 
 Route::get('/clear-cache', function () {

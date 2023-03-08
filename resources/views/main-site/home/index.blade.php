@@ -74,34 +74,40 @@
     <div class="swiper-slider-two">
         <div class="swiper-container gallery-top">
             <div class="swiper-wrapper">
-                <div class="swiper-slide swiper-overlay" style="background-image:url(pakistantop/assets/images/dd.jpg)">
+                <div class="swiper-slide swiper-overlay" style="background-image:url(https://cdn.pixabay.com/photo/2016/02/13/13/11/oldtimer-1197800_960_720.jpg)">
+                    <div class="swiper-slider-text">
+                        <h2>Innovation Through</h2>
+                        <p>We create premium designs, technology, mobile & digital, ecommerce campaigns.</p>
+                        <div class="btns">
+                            <a href="#" class="theme-btn" tabindex="-1">Explore work</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide swiper-overlay" style="background-image:url(https://cdn.pixabay.com/photo/2016/10/22/20/34/wines-1761613_960_720.jpg)">
 
                 </div>
-                <div class="swiper-slide swiper-overlay" style="background-image:url(pakistantop/assets/images/bb.JPG)">
+                <div class="swiper-slide swiper-overlay" style="background-image:url(https://cdn.pixabay.com/photo/2015/11/19/21/10/glasses-1052010_960_720.jpg)">
 
                 </div>
-                <div class="swiper-slide swiper-overlay" style="background-image:url(pakistantop/assets/images/cc.JPG)">
+                <div class="swiper-slide swiper-overlay" style="background-image:url(https://cdn.pixabay.com/photo/2016/01/05/13/58/apple-1122537_960_720.jpg)">
 
                 </div>
-                <div class="swiper-slide swiper-overlay" style="background-image:url(pakistantop/assets/images/dd.jpg)">
+                <div class="swiper-slide swiper-overlay" style="background-image:url(https://cdn.pixabay.com/photo/2017/02/02/14/04/grapes-2032838_960_720.jpg)">
 
                 </div>
-                <div class="swiper-slide swiper-overlay" style="background-image:url(pakistantop/assets/images/aa.jpg)">
+                <div class="swiper-slide swiper-overlay" style="background-image:url(https://cdn.pixabay.com/photo/2016/01/02/02/03/orange-1117645_960_720.jpg)">
 
                 </div>
-                <div class="swiper-slide swiper-overlay" style="background-image:url(pakistantop/assets/images/bb.jpg)">
+                <div class="swiper-slide swiper-overlay" style="background-image:url(https://cdn.pixabay.com/photo/2016/06/29/17/14/drink-1487304_960_720.jpg)">
 
                 </div>
-                <div class="swiper-slide swiper-overlay" style="background-image:url(pakistantop/assets/images/cc.jpg)">
+                <div class="swiper-slide swiper-overlay" style="background-image:url(https://cdn.pixabay.com/photo/2020/05/16/17/23/cycling-5178398_960_720.jpg)">
 
                 </div>
-                <div class="swiper-slide swiper-overlay" style="background-image:url(pakistantop/assets/images/dd.jpg)">
+                <div class="swiper-slide swiper-overlay" style="background-image:url(https://cdn.pixabay.com/photo/2014/02/08/17/32/cricket-262180_960_720.jpg)">
 
                 </div>
-                <div class="swiper-slide swiper-overlay" style="background-image:url(pakistantop/assets/images/aa.jpg)">
-
-                </div>
-                <div class="swiper-slide swiper-overlay" style="background-image:url(pakistantop/assets/images/b.jpg)">
+                <div class="swiper-slide swiper-overlay" style="background-image:url(https://cdn.pixabay.com/photo/2015/08/09/13/30/kingfisher-881594_960_720.jpg)">
 
                 </div>
             </div>
@@ -110,35 +116,35 @@
         </div>
         <div class="swiper-container gallery-thumbs">
             <div class="swiper-wrapper">
-                <div class="swiper-slide swiper-overlay" style="background-image:url(pakistantop/assets/images/a.jpg)">
+                <div class="swiper-slide swiper-overlay" style="background-image:url(https://cdn.pixabay.com/photo/2016/02/13/13/11/oldtimer-1197800_960_720.jpg)">
 
 
                 </div>
-                <div class="swiper-slide swiper-overlay" style="background-image:url(pakistantop/assets/images/b.jpg)">
+                <div class="swiper-slide swiper-overlay" style="background-image:url(https://cdn.pixabay.com/photo/2016/10/22/20/34/wines-1761613_960_720.jpg)">
 
                 </div>
-                <div class="swiper-slide swiper-overlay" style="background-image:url(pakistantop/assets/images/c.jpg)">
+                <div class="swiper-slide swiper-overlay" style="background-image:url(https://cdn.pixabay.com/photo/2015/11/19/21/10/glasses-1052010_960_720.jpg)">
 
                 </div>
-                <div class="swiper-slide swiper-overlay" style="background-image:url(pakistantop/assets/images/d.jpg)">
+                <div class="swiper-slide swiper-overlay" style="background-image:url(https://cdn.pixabay.com/photo/2016/01/05/13/58/apple-1122537_960_720.jpg)">
 
                 </div>
-                <div class="swiper-slide swiper-overlay" style="background-image:url(pakistantop/assets/images/aa.jpg)">
+                <div class="swiper-slide swiper-overlay" style="background-image:url(https://cdn.pixabay.com/photo/2017/02/02/14/04/grapes-2032838_960_720.jpg)">
 
                 </div>
-                <div class="swiper-slide swiper-overlay" style="background-image:url(pakistantop/assets/images/bb.jpg)">
+                <div class="swiper-slide swiper-overlay" style="background-image:url(https://cdn.pixabay.com/photo/2016/01/02/02/03/orange-1117645_960_720.jpg)">
 
                 </div>
-                <div class="swiper-slide swiper-overlay" style="background-image:url(pakistantop/assets/images/cc.jpg)">
+                <div class="swiper-slide swiper-overlay" style="background-image:url(https://cdn.pixabay.com/photo/2016/06/29/17/14/drink-1487304_960_720.jpg)">
 
                 </div>
-                <div class="swiper-slide swiper-overlay" style="background-image:url(pakistantop/assets/images/dd.jpg)">
+                <div class="swiper-slide swiper-overlay" style="background-image:url(https://cdn.pixabay.com/photo/2020/05/16/17/23/cycling-5178398_960_720.jpg)">
 
                 </div>
-                <div class="swiper-slide swiper-overlay" style="background-image:url(pakistantop/assets/images/a.jpg)">
+                <div class="swiper-slide swiper-overlay" style="background-image:url(https://cdn.pixabay.com/photo/2014/02/08/17/32/cricket-262180_960_720.jpg)">
 
                 </div>
-                <div class="swiper-slide swiper-overlay" style="background-image:url(pakistantop/assets/images/b.jpg)">
+                <div class="swiper-slide swiper-overlay" style="background-image:url(https://cdn.pixabay.com/photo/2015/08/09/13/30/kingfisher-881594_960_720.jpg)">
 
                 </div>
             </div>
@@ -408,6 +414,200 @@
         </div>
         <div class="clear"></div>
          <!-- Section 7 Mobile Prices END-->
+     <!-- Section 19 Dictionary and Word Search Start -->
+     <div class="home_box dictionary_box">
+        <h3 class="urdu">                 کرنسی کنورٹر
+        </h3>
+        <div class="search_dic">
+            <h4 class="dic_head ac txt_white pad10 lh24 mb15 urdu">                  کرنسی کنورٹر
+                <a class="ar txt_white fr arial fs12" onClick="clear_field()" style="cursor: pointer;">Clear Search</a></h4>
+            {{-- <form id="formSearch" name="formSearch" method="post" action="#" onSubmit="return emptyValues()">
+                <input class="dic_search_bar main_dic" type="text" name="dic_search" id="dic_search" value="" placeholder="تلاش کیجئے" onKeyUp="get_autocomplete(this.value)" />
+                <select class="dic_search_lang urdu ar rtl" name="lang_type" id="lang_type" onChange="keyboad_dic(this.value)">
+                    <option selected value="english">انگلش</option>
+                    <option value="roman_urdu">رومن اردو</option>
+                    <option value="urdu">اردو</option>
+                </select>
+                <input type="submit" name="Submit" value="تلاش کیجئے" class="txt_white mt10 mb10 full bsbb fl pad2 dic_btn urdu" />
+            </form> --}}
+
+            <div class="">
+
+		<div class="main">
+
+			<div class="form-group curncy-form">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text txt_white">Amount to Convert :</span>
+                    </div>
+                    <input type="text"
+					class="form-control searchBox"
+					placeholder="0.00" id="oamount">
+                </div>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text txt_white">From</span>
+                    </div>
+                    <select class="form-control from" id="sel1">
+                        <option value="">Select One …</option>
+                        <option value="USD">USD</option>
+                        <option value="AED">AED</option>
+                        <option value="ARS">ARS</option>
+                        <option value="AUD">AUD</option>
+                        <option value="BGN">BGN</option>
+                        <option value="BRL">BRL</option>
+                        <option value="BSD">BSD</option>
+                        <option value="CAD">CAD</option>
+                        <option value="CHF">CHF</option>
+                        <option value="CLP">CLP</option>
+                        <option value="CNY">CNY</option>
+                        <option value="COP">COP</option>
+                        <option value="CZK">CZK</option>
+                        <option value="DKK">DKK</option>
+                        <option value="DOP">DOP</option>
+                        <option value="EGP">EGP</option>
+                        <option value="EUR">EUR</option>
+                        <option value="FJD">FJD</option>
+                        <option value="GBP">GBP</option>
+                        <option value="GTQ">GTQ</option>
+                        <option value="HKD">HKD</option>
+                        <option value="HRK">HRK</option>
+                        <option value="HUF">HUF</option>
+                        <option value="IDR">IDR</option>
+                        <option value="ILS">ILS</option>
+                        <option value="INR">INR</option>
+                        <option value="ISK">ISK</option>
+                        <option value="JPY">JPY</option>
+                        <option value="KRW">KRW</option>
+                        <option value="KZT">KZT</option>
+                        <option value="MVR">MVR</option>
+                        <option value="MXN">MXN</option>
+                        <option value="MYR">MYR</option>
+                        <option value="NOK">NOK</option>
+                        <option value="NZD">NZD</option>
+                        <option value="PAB">PAB</option>
+                        <option value="PEN">PEN</option>
+                        <option value="PHP">PHP</option>
+                        <option value="PKR">PKR</option>
+                        <option value="PLN">PLN</option>
+                        <option value="PYG">PYG</option>
+                        <option value="RON">RON</option>
+                        <option value="RUB">RUB</option>
+                        <option value="SAR">SAR</option>
+                        <option value="SEK">SEK</option>
+                        <option value="SGD">SGD</option>
+                        <option value="THB">THB</option>
+                        <option value="TRY">TRY</option>
+                        <option value="TWD">TWD</option>
+                        <option value="UAH">UAH</option>
+                        <option value="UYU">UYU</option>
+                        <option value="ZAR">ZAR</option>
+                    </select>
+                </div>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text txt_white">To</span>
+                    </div>
+                    <select class="form-control to" id="sel2">
+                        <option value="">Select One …</option>
+                        <option value="USD">USD</option>
+                        <option value="AED">AED</option>
+                        <option value="ARS">ARS</option>
+                        <option value="AUD">AUD</option>
+                        <option value="BGN">BGN</option>
+                        <option value="BRL">BRL</option>
+                        <option value="BSD">BSD</option>
+                        <option value="CAD">CAD</option>
+                        <option value="CHF">CHF</option>
+                        <option value="CLP">CLP</option>
+                        <option value="CNY">CNY</option>
+                        <option value="COP">COP</option>
+                        <option value="CZK">CZK</option>
+                        <option value="DKK">DKK</option>
+                        <option value="DOP">DOP</option>
+                        <option value="EGP">EGP</option>
+                        <option value="EUR">EUR</option>
+                        <option value="FJD">FJD</option>
+                        <option value="GBP">GBP</option>
+                        <option value="GTQ">GTQ</option>
+                        <option value="HKD">HKD</option>
+                        <option value="HRK">HRK</option>
+                        <option value="HUF">HUF</option>
+                        <option value="IDR">IDR</option>
+                        <option value="ILS">ILS</option>
+                        <option value="INR">INR</option>
+                        <option value="ISK">ISK</option>
+                        <option value="JPY">JPY</option>
+                        <option value="KRW">KRW</option>
+                        <option value="KZT">KZT</option>
+                        <option value="MVR">MVR</option>
+                        <option value="MXN">MXN</option>
+                        <option value="MYR">MYR</option>
+                        <option value="NOK">NOK</option>
+                        <option value="NZD">NZD</option>
+                        <option value="PAB">PAB</option>
+                        <option value="PEN">PEN</option>
+                        <option value="PHP">PHP</option>
+                        <option value="PKR">PKR</option>
+                        <option value="PLN">PLN</option>
+                        <option value="PYG">PYG</option>
+                        <option value="RON">RON</option>
+                        <option value="RUB">RUB</option>
+                        <option value="SAR">SAR</option>
+                        <option value="SEK">SEK</option>
+                        <option value="SGD">SGD</option>
+                        <option value="THB">THB</option>
+                        <option value="TRY">TRY</option>
+                        <option value="TWD">TWD</option>
+                        <option value="UAH">UAH</option>
+                        <option value="UYU">UYU</option>
+                        <option value="ZAR">ZAR</option>
+                    </select>
+                </div>
+			</div>
+			<div class="text-center">
+				<!-- convert button -->
+				<button class="btn btn-primary convert m-2 txt_white mt10 mb10 full bsbb fl pad2 dic_btn urdu"
+					type="submit">
+					Convert
+				</button>
+
+				<!-- reset button -->
+				<button class="btn btn-primary m-2 reset txt_white mt10 mb10 full bsbb fl pad2 dic_btn urdu"
+					onclick="clearVal()">
+					Reset
+				</button>
+			</div>
+
+		</div>
+        <div style="clear: both"></div>
+        <div id="finalAmount" style="">
+
+			<!-- Display the converted amount -->
+			Converted Amount :
+				<span class="finalValue"
+					style="color:white;">
+				</span>
+
+		</div>
+
+
+        </div>
+
+            <div class="clear"></div>
+        </div>
+        <div class="clear mb10"></div>
+        {{-- <ul class="box_menu urdu">
+            <li><a title="Dictionary" href="#">ڈکشنری</a></li>
+            <li><a title="English to Urdu Dictionary" href="#">انگلش سے اردو ڈکشنری</a></li>
+            <li><a title="Urdu to English Dictionary" href="#">اردو سے انگلش ڈکشنری</a></li>
+            <li><a title="Roman Urdu to English Dictionary" href="#">رومن اردو سے انگلش ڈکشنری</a></li>
+        </ul> --}}
+        <div class="clear mb10"></div>
+    </div>
+    <div class="clear"></div>
+    <!-- Section 19 Dictionary and Word Search END -->
+
 
          <!-- Section 8 Poetry and Poem Start -->
         {{-- <div class="home_box poetry_box"> <a title="Poetry" href="#">
@@ -1095,6 +1295,17 @@
 
             </div>
          </div>
+
+        <div id="finalAmount" class="text-center">
+
+			<!-- Display the converted amount -->
+			<h2>Converted Amount :
+				<span class="finalValue"
+					style="color:green;">
+				</span>
+			</h2>
+		</div>
+
         <div class="widget">
 
             <!-- JOB TYPE -->
@@ -1193,188 +1404,7 @@
             </table> <a class="fl ar urdu fs15 lh30 txt_blue rtl pad5" href="business/open-market-currency-rates-in-pakistan.html">مکمل ریٹس دیکھئے <i class="fa fa-angle-double-left mr5"></i></a>
         </div>
         <div class="clear mb15"></div>
-        <div class="widget">
-            <h3 class="fs18 lh36 ar rtl urdu pt5 pb5">کرنسی کنورٹر</h3>
-            <form style="background: #ebeced; padding:10px;border: 1px solid maroon;" name="currency_converter" id="currency_converter" method="post" action="">
-                <div class="full bsbb ac mb10">
-                    <p class="full bsbb fs fl ac txt_black fs15 mb10 urdu">رقم کا اندراج کریں</p>
-                    <input class="half" style="padding: 5px 10px;text-align: center;border: 1px solid maroon;" type="text" name="amount" value="">
-                </div>
-                <div class="full bsbb ac mb10">
-                    <select class="half fr rtl" style="height:28px;" name="from_currency" id="from_currency">
-                        <option selected="selected" value="0">منتخب سے</option>
-                        <option value="afn">Afghanistan Afghanis - افغان افغانی</option>
-                        <option value="all">Albania Leke - البانوی لیک</option>
-                        <option value="dzd">Algeria Dinars - الجزائر دینار</option>
-                        <option value="ars">Argentina Pesos - ارجنٹائن پیسہ</option>
-                        <option value="aud">Australian Dollar - آسٹریلوی ڈالر</option>
-                        <option value="bsd">Bahamas Dollars - بہامین ڈالر</option>
-                        <option value="bhd">Bahrain Dinar - بحرین دینار</option>
-                        <option value="bdt">Bangladesh Taka - بنگلہ دیشی ٹکہ</option>
-                        <option value="bbd">Barbados Dollars - بارباڈیان ڈالر</option>
-                        <option value="bmd">Bermuda Dollars - برموڈین ڈالر</option>
-                        <option value="xbt">Bitcoin - </option>
-                        <option value="brl">Brazil Reais - برازیلی ریئل</option>
-                        <option value="bgn">Bulgaria Leva - بلغارین لیو</option>
-                        <option value="cad">Canadian Dollar - کینیڈا ڈالر</option>
-                        <option value="xof">CFA BCEAO Francs - وسطی افریقی CFA فرینک</option>
-                        <option value="xaf">CFA BEAC Francs - سینٹرل افریقن سوئس فرینک</option>
-                        <option value="clp">Chile Pesos - چلین پیسہ</option>
-                        <option value="cny">China Yuan - چینی یوآن</option>
-                        <option value="cop">Colombia Pesos - کولمبین پیسہ</option>
-                        <option value="xpf">Comptoirs Francais du Pacifique Francs - CFP فرینک</option>
-                        <option value="crc">Costa Rica Colones - کوسٹا ریکا قولون</option>
-                        <option value="hrk">Croatia Kuna - کروشین کونا</option>
-                        <option value="symbol">Currency - </option>
-                        <option value="czk">Czech Republic Koruny - جمہوریہ چیک کرونا</option>
-                        <option value="dkk">Danish Krone - ڈینش کرون</option>
-                        <option value="dop">Dominican Republic Pesos - ڈومینیکن پیسہ</option>
-                        <option value="xcd">East Caribbean Dollars - ایسٹ کیریین ڈالر</option>
-                        <option value="egp">Egypt Pounds - مصری پائونڈ</option>
-                        <option value="eek">Estonia Krooni - ایسٹونین کرون</option>
-                        <option value="eur">Euro - یورو</option>
-                        <option value="fjd">Fiji Dollars - فجی ڈالر</option>
-                        <option value="hkd">Hong Kong Dollar - ہانگ کانگ ڈالر</option>
-                        <option value="huf">Hungary Forint - ہنگرین فورنٹ</option>
-                        <option value="isk">Iceland Kronur - برفستانی کرونا</option>
-                        <option value="xdr">IMF Special Drawing Rights - اختصاصی کشیدی حقوق IMF</option>
-                        <option value="inr">Indian Rupee - بھارتی روپیہ</option>
-                        <option value="idr">Indonesia Rupiahs - انڈونیشین روپیہ</option>
-                        <option value="irr">Iran Rials - ایرانی ریال</option>
-                        <option value="iqd">Iraq Dinars - عراقی دینار</option>
-                        <option value="ils">Israel New Shekels - اسرائیل جدید شکیل</option>
-                        <option value="jmd">Jamaica Dollars - جمیکا ڈالر</option>
-                        <option value="jpy">Japanese Yen - جاپانی ین</option>
-                        <option value="jod">Jordan Dinars - اردنی دینار</option>
-                        <option value="kes">Kenya Shillings - کینیا شلنگ</option>
-                        <option value="kwd">Kuwaiti Dinar - کویت دینار</option>
-                        <option value="lbp">Lebanon Pounds - لبنانی پاؤنڈ</option>
-                        <option value="myr">Malaysian Ringgit - ملائیشین رنگٹ</option>
-                        <option value="mur">Mauritius Rupees - موریشس روپیہ</option>
-                        <option value="mxn">Mexico Pesos - میکسیکن پیسو</option>
-                        <option value="mad">Morocco Dirhams - مراکشی درہم</option>
-                        <option value="nzd">New zealand Dollars - نیوزی لینڈ ڈالر</option>
-                        <option value="nok">Norwegians Krone - نارویجن کرون</option>
-                        <option value="omr">Omani Riyal - عُمانی ریال</option>
-                        <option value="pkr">Pakistan Rupee - پاکستانی روپے</option>
-                        <option value="pen">Peru Nuevos Soles - پیروین نیووسول</option>
-                        <option value="php">Philippines Pesos - فلپائینی پیسہ</option>
-                        <option value="pln">Poland Zlotych - پولش زلوٹی</option>
-                        <option value="qar">Qatari Riyal - قطری ریال</option>
-                        <option value="ron">Romania New Lei - رومانیائی لیو</option>
-                        <option value="rub">Russia Rubles - روسی روبل</option>
-                        <option value="sar">Saudi Riyal - سعودی عرب ریال</option>
-                        <option value="sgd">Singapore Dollar - سنگا پور ڈالر</option>
-                        <option value="skk">Slovakia Koruny - سلووک کرونا</option>
-                        <option value="zar">South Africa Rand - جنوبی افریقی رانڈ</option>
-                        <option value="krw">South Korea Won - جنوبی کوریا وون</option>
-                        <option value="lkr">Sri Lanka Rupees - سری لنکا روپیہ</option>
-                        <option value="sdg">Sudan Pounds - سوڈانی پاؤنڈ</option>
-                        <option value="sek">Swedish Korona - سویڈش کرونا</option>
-                        <option value="chf">Swiss Franc - سوئس فرینک</option>
-                        <option value="twd">Taiwan New Dollars - نیو تائیوان ڈالر</option>
-                        <option value="thb">Thai Bhat - تھائی بھات</option>
-                        <option value="ttd">Trinidad and Tobago Dollars - ٹرینیڈاڈ و ٹوباگو ڈولر</option>
-                        <option value="tnd">Tunisia Dinars - تیونس دینار</option>
-                        <option value="try">Turkey New Lira - ترکی لیرا</option>
-                        <option value="aed">U.A.E Dirham - متحدہ عرب امارات درہم</option>
-                        <option value="gbp">UK Pound Sterling - برطانوی پاونڈ</option>
-                        <option value="usd">US Dollar - امریکی ڈالر</option>
-                        <option value="vef">Venezuela Bolivares Fuertes - وینیزویلا بولیور فورتے</option>
-                        <option value="vnd">Vietnam Dong - ویتنامی ڈونگ</option>
-                        <option value="zmk">Zambia Kwacha - زیمبیا کواچا</option>
-                    </select>
-                    <select class="half fl rtl" style="height:28px;" name="to_currency" id="to_currency">
-                        <option selected="selected" value="0">منتخب میں</option>
-                        <option value="afn">Afghanistan Afghanis - افغان افغانی</option>
-                        <option value="all">Albania Leke - البانوی لیک</option>
-                        <option value="dzd">Algeria Dinars - الجزائر دینار</option>
-                        <option value="ars">Argentina Pesos - ارجنٹائن پیسہ</option>
-                        <option value="aud">Australian Dollar - آسٹریلوی ڈالر</option>
-                        <option value="bsd">Bahamas Dollars - بہامین ڈالر</option>
-                        <option value="bhd">Bahrain Dinar - بحرین دینار</option>
-                        <option value="bdt">Bangladesh Taka - بنگلہ دیشی ٹکہ</option>
-                        <option value="bbd">Barbados Dollars - بارباڈیان ڈالر</option>
-                        <option value="bmd">Bermuda Dollars - برموڈین ڈالر</option>
-                        <option value="xbt">Bitcoin - </option>
-                        <option value="brl">Brazil Reais - برازیلی ریئل</option>
-                        <option value="bgn">Bulgaria Leva - بلغارین لیو</option>
-                        <option value="cad">Canadian Dollar - کینیڈا ڈالر</option>
-                        <option value="xof">CFA BCEAO Francs - وسطی افریقی CFA فرینک</option>
-                        <option value="xaf">CFA BEAC Francs - سینٹرل افریقن سوئس فرینک</option>
-                        <option value="clp">Chile Pesos - چلین پیسہ</option>
-                        <option value="cny">China Yuan - چینی یوآن</option>
-                        <option value="cop">Colombia Pesos - کولمبین پیسہ</option>
-                        <option value="xpf">Comptoirs Francais du Pacifique Francs - CFP فرینک</option>
-                        <option value="crc">Costa Rica Colones - کوسٹا ریکا قولون</option>
-                        <option value="hrk">Croatia Kuna - کروشین کونا</option>
-                        <option value="symbol">Currency - </option>
-                        <option value="czk">Czech Republic Koruny - جمہوریہ چیک کرونا</option>
-                        <option value="dkk">Danish Krone - ڈینش کرون</option>
-                        <option value="dop">Dominican Republic Pesos - ڈومینیکن پیسہ</option>
-                        <option value="xcd">East Caribbean Dollars - ایسٹ کیریین ڈالر</option>
-                        <option value="egp">Egypt Pounds - مصری پائونڈ</option>
-                        <option value="eek">Estonia Krooni - ایسٹونین کرون</option>
-                        <option value="eur">Euro - یورو</option>
-                        <option value="fjd">Fiji Dollars - فجی ڈالر</option>
-                        <option value="hkd">Hong Kong Dollar - ہانگ کانگ ڈالر</option>
-                        <option value="huf">Hungary Forint - ہنگرین فورنٹ</option>
-                        <option value="isk">Iceland Kronur - برفستانی کرونا</option>
-                        <option value="xdr">IMF Special Drawing Rights - اختصاصی کشیدی حقوق IMF</option>
-                        <option value="inr">Indian Rupee - بھارتی روپیہ</option>
-                        <option value="idr">Indonesia Rupiahs - انڈونیشین روپیہ</option>
-                        <option value="irr">Iran Rials - ایرانی ریال</option>
-                        <option value="iqd">Iraq Dinars - عراقی دینار</option>
-                        <option value="ils">Israel New Shekels - اسرائیل جدید شکیل</option>
-                        <option value="jmd">Jamaica Dollars - جمیکا ڈالر</option>
-                        <option value="jpy">Japanese Yen - جاپانی ین</option>
-                        <option value="jod">Jordan Dinars - اردنی دینار</option>
-                        <option value="kes">Kenya Shillings - کینیا شلنگ</option>
-                        <option value="kwd">Kuwaiti Dinar - کویت دینار</option>
-                        <option value="lbp">Lebanon Pounds - لبنانی پاؤنڈ</option>
-                        <option value="myr">Malaysian Ringgit - ملائیشین رنگٹ</option>
-                        <option value="mur">Mauritius Rupees - موریشس روپیہ</option>
-                        <option value="mxn">Mexico Pesos - میکسیکن پیسو</option>
-                        <option value="mad">Morocco Dirhams - مراکشی درہم</option>
-                        <option value="nzd">New zealand Dollars - نیوزی لینڈ ڈالر</option>
-                        <option value="nok">Norwegians Krone - نارویجن کرون</option>
-                        <option value="omr">Omani Riyal - عُمانی ریال</option>
-                        <option selected="selected" value="pkr">Pakistan Rupee - پاکستانی روپے</option>
-                        <option value="pen">Peru Nuevos Soles - پیروین نیووسول</option>
-                        <option value="php">Philippines Pesos - فلپائینی پیسہ</option>
-                        <option value="pln">Poland Zlotych - پولش زلوٹی</option>
-                        <option value="qar">Qatari Riyal - قطری ریال</option>
-                        <option value="ron">Romania New Lei - رومانیائی لیو</option>
-                        <option value="rub">Russia Rubles - روسی روبل</option>
-                        <option value="sar">Saudi Riyal - سعودی عرب ریال</option>
-                        <option value="sgd">Singapore Dollar - سنگا پور ڈالر</option>
-                        <option value="skk">Slovakia Koruny - سلووک کرونا</option>
-                        <option value="zar">South Africa Rand - جنوبی افریقی رانڈ</option>
-                        <option value="krw">South Korea Won - جنوبی کوریا وون</option>
-                        <option value="lkr">Sri Lanka Rupees - سری لنکا روپیہ</option>
-                        <option value="sdg">Sudan Pounds - سوڈانی پاؤنڈ</option>
-                        <option value="sek">Swedish Korona - سویڈش کرونا</option>
-                        <option value="chf">Swiss Franc - سوئس فرینک</option>
-                        <option value="twd">Taiwan New Dollars - نیو تائیوان ڈالر</option>
-                        <option value="thb">Thai Bhat - تھائی بھات</option>
-                        <option value="ttd">Trinidad and Tobago Dollars - ٹرینیڈاڈ و ٹوباگو ڈولر</option>
-                        <option value="tnd">Tunisia Dinars - تیونس دینار</option>
-                        <option value="try">Turkey New Lira - ترکی لیرا</option>
-                        <option value="aed">U.A.E Dirham - متحدہ عرب امارات درہم</option>
-                        <option value="gbp">UK Pound Sterling - برطانوی پاونڈ</option>
-                        <option value="usd">US Dollar - امریکی ڈالر</option>
-                        <option value="vef">Venezuela Bolivares Fuertes - وینیزویلا بولیور فورتے</option>
-                        <option value="vnd">Vietnam Dong - ویتنامی ڈونگ</option>
-                        <option value="zmk">Zambia Kwacha - زیمبیا کواچا</option>
-                    </select>
-                </div>
-                <div class="clear"></div>
-                <div class="full bsbb ac mb10">
-                    <input style="text-transform: uppercase;width: 30%;height: 33px;margin-top: 10px;background: #2d5676;color: #fff;border: none;border-radius: 5px;outline: none;cursor: pointer;" class="urdu" type="submit" name="btn_currency" value="ارسال کیجئے">
-                </div>
-                <div class="clear"></div>
-            </form>
-        </div>
+
         <div class="clear mb15"></div>
         <div class="baby_name_day">
             <a style="text-decoration:none;" class="name_box full bsbb fs17 ac" href="dictionary/english-to-urdu/scopula-meaning-in-urdu/78291.html">
@@ -1551,32 +1581,96 @@
         calendarInfoTime.innerText = calendar.selectedTime;
     });
 </script>
+<script>
+
+    // Include api for currency change
+    const api = "https://api.exchangerate-api.com/v4/latest/USD";
+
+    // For selecting different controls
+    var search = document.querySelector(".searchBox");
+    var convert = document.querySelector(".convert");
+    var fromCurrecy = document.querySelector(".from");
+    var toCurrecy = document.querySelector(".to");
+    var finalValue = document.querySelector(".finalValue");
+    var finalAmount = document.getElementById("finalAmount");
+    var resultFrom;
+    var resultTo;
+    var searchValue;
+
+    // Event when currency is changed
+    fromCurrecy.addEventListener('change', (event) => {
+        resultFrom = `${event.target.value}`;
+    });
+
+    // Event when currency is changed
+    toCurrecy.addEventListener('change', (event) => {
+        resultTo = `${event.target.value}`;
+    });
+
+    search.addEventListener('input', updateValue);
+
+    // Function for updating value
+    function updateValue(e) {
+        searchValue = e.target.value;
+    }
+
+    // When user clicks, it calls function getresults
+    convert.addEventListener("click", getResults);
+
+    // Function getresults
+    function getResults() {
+        fetch(`${api}`)
+            .then(currency => {
+                return currency.json();
+            }).then(displayResults);
+    }
+
+    // Display results after conversion
+    function displayResults(currency) {
+        let fromRate = currency.rates[resultFrom];
+        let toRate = currency.rates[resultTo];
+        finalValue.innerHTML =
+        ((toRate / fromRate) * searchValue).toFixed(2);
+        finalAmount.style.display = "block";
+    }
+
+    // When user click on reset button
+    function clearVal() {
+        window.location.reload();
+        document.getElementsByClassName("finalValue").innerHTML = "";
+    };
 
 
 
- <script src=" {{asset('js/vendor/modernizr-3.6.0.min.js')}}"></script>
-            <script src="{{asset('js/vendor/jquery-1.12.4.min.js')}}"></script>
-            <script src="{{asset('mag/js/bootstrap.min.js')}}"></script>
-            <script src="{{asset('mag/js/jquery.slicknav.min.js')}}"></script>
-            <script src="{{asset('mag/js/jquery.ripples-min.js')}}"></script>
-            <script src="{{asset('mag/js/particles.min.js')}}"></script>
-            <script src="{{asset('mag/js/scrollreveal.min.js')}}"></script>
-            <script src="{{asset('mag/js/countdown.min.js')}}"></script>
-            <script src="{{asset('mag/js/tilt.jquery.min.js')}}"></script>
-            <script src="{{asset('mag/js/typewritter.js')}}"></script>
-            <script src="{{asset('mag/js/isotope.pkgd.min.js')}}"></script>
-            <script src="{{asset('mag/js/imagesloaded.pkgd.min.js')}}"></script>
-            <script src="{{asset('mag/js/fancyBox v2.1.5.js')}}"></script>
-            <script src="{{asset('mag/js/jquery.counterup.min.js')}}"></script>
-            <script src="{{asset('mag/js/slick.js')}}"></script>
-            <script src="{{asset('mag/js/jquery.barfiller.js')}}"></script>
-            <script src="{{asset('mag/js/swiper.min.js')}}"></script>
-            <script src="{{asset('mag/js/waypoints.min.js')}}"></script>
-            <script src="{{asset('mag/js/jquery.parallax-1.1.3.js')}}"></script>
-            <script src="{{asset('mag//js/owl.carousel.min.js')}}"></script>
-           <script src="{{asset('mag//js/megapack-main.js')}}"></script>
-            <script src="{{asset('mag//js/jquery.scrollUp.min.js')}}"></script>
-            <script defer src="{{asset('mag/vanilla-calendar.min.js')}}"></script>
+
+        </script>
+
+
+<script src=" {{asset('js/vendor/modernizr-3.6.0.min.js')}}"></script>
+<script src="{{asset('js/vendor/jquery-1.12.4.min.js')}}"></script>
+<script src="{{asset('mag/js/bootstrap.min.js')}}"></script>
+<script src="{{asset('mag/js/jquery.slicknav.min.js')}}"></script>
+<script src="{{asset('mag/js/jquery.ripples-min.js')}}"></script>
+<script src="{{asset('mag/js/particles.min.js')}}"></script>
+<script src="{{asset('mag/js/scrollreveal.min.js')}}"></script>
+<script src="{{asset('mag/js/countdown.min.js')}}"></script>
+<script src="{{asset('mag/js/tilt.jquery.min.js')}}"></script>
+<script src="{{asset('mag/js/typewritter.js')}}"></script>
+<script src="{{asset('mag/js/isotope.pkgd.min.js')}}"></script>
+<script src="{{asset('mag/js/imagesloaded.pkgd.min.js')}}"></script>
+<script src="{{asset('mag/js/fancyBox v2.1.5.js')}}"></script>
+<script src="{{asset('mag/js/jquery.counterup.min.js')}}"></script>
+<script src="{{asset('mag/js/slick.js')}}"></script>
+<script src="{{asset('mag/js/jquery.barfiller.js')}}"></script>
+<script src="{{asset('mag/js/swiper.min.js')}}"></script>
+<script src="{{asset('mag/js/waypoints.min.js')}}"></script>
+<script src="{{asset('mag/js/jquery.parallax-1.1.3.js')}}"></script>
+<script src="{{asset('mag//js/owl.carousel.min.js')}}"></script>
+<script src="{{asset('mag//js/megapack-main.js')}}"></script>
+<script src="{{asset('mag//js/jquery.scrollUp.min.js')}}"></script>
+<script defer src="{{asset('mag/vanilla-calendar.min.js')}}"></script>
+
+
 
 
 @endpush

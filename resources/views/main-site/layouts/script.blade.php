@@ -100,4 +100,8 @@
   }, false);
 </script>
 
+
+
+
+
 @stack('scripts')

@@ -1871,10 +1871,10 @@ a,
 	}
 
 	.footer .footer_top .ftr_logo_block {
-		float: right;
+		float: left;
 		width: 30%;
 		box-sizing: border-box;
-		text-align: right;
+		/* text-align: right; */
 	}
 
 	.footer .footer_top .ftr_links_block {
@@ -1889,10 +1889,10 @@ a,
 		direction: ltr;
 	}
 
-	.footer .footer_top .ftr_logo_block .ftr_social_links a {
+	.ftr_social_links a {
 		width: 25px;
 		height: 25px;
-		background: #646464 !important;
+		background: white !important;
 		border-radius: 50%;
 		-moz-border-radius: 50%;
 		-webkit-border-radius: 50%;
@@ -6268,3 +6268,83 @@ body.dark {
 }
 
 /** start swiper slider**/
+
+.footer {
+    margin-top: 50px;
+  }
+
+  .footer-wrapper {
+    background: #023047;
+    padding-top: 50px;
+  }
+
+  .footer-header {
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 0.005em;
+    color: #ffffff;
+  }
+
+  .footer-list li a {
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.005em;
+    color: #ffffff;
+  }
+
+  .footer-list li a:hover {
+    color: #ffb703;
+  }
+  .footer-bottom-line {
+    line-height: 0;
+    min-width: 200px;
+  }
+
+  .footer-bottom {
+    max-width: 974px;
+    width: 100%;
+    margin: 0 auto;
+  }
+.footer-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3px;
+}
+.curncy-form
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+.curncy-form input,.curncy-form select{
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    padding: 0 5px;
+    box-sizing: border-box;
+    outline: none;
+    width: 100%;
+}
+.curncy-form .input-group {
+width: 100%;
+}
+.reset{
+    background-color: #C14D44 !important;
+}
+#finalAmount{
+    background-color: #5f5d5d;padding:10px;font-size:17px;color:white;text-align:center;
+}
+.ftr_social_linkss{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.ftr_social_linkss span{
+    color: white;
+    margin-top: 10px;
+}
+.ftr_social_links{
+    padding-bottom: 10px;
+}

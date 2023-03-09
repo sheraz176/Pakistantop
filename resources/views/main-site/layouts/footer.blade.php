@@ -9,12 +9,12 @@
                 <a href="#"> <img height="42px" src="{{asset('pakistantop/assets/images/pak_top.png')}}" alt=""> </a>
             </div>
             <div class="ftr_social_linkss">
-                <span>
+                {{-- <span>
                    <i class="fa fa-location-arrow"></i>: 149-G, Phase-1, DHA, Lahore
                 </span>
                 <span>
                      <i class="fa fa-phone"></i> : +92 (42) 37204555
-                 </span>
+                 </span> --}}
                  <span>
                     <i class="fa fa-envelope-square"></i>: info@pakistantop.com
                 </span>

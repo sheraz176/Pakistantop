@@ -6351,6 +6351,7 @@ width: 100%;
 .swiper-slider-text {
     text-align: left;
     padding-left: 100px;
+	line-height: 50px;
 }
 .slick-slider-text h2, .swiper-slider-text h2 {
     font-size: 50px;

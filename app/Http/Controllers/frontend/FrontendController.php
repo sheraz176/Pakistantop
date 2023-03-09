@@ -12,6 +12,7 @@ use App\Models\Video;
 use App\Models\leave_request_verification;
 use App\Models\reference_information;
 use App\Models\religion_and_socity;
+use App\Models\Ads;
 use App\Models\leader;
 use App\Models\mode;
 use Storage;
@@ -25,6 +26,7 @@ class FrontendController extends Controller
       $religions = religion_and_socity::get();
       $areas = Area::get();
       $Newsone = News::orderBy('created_at', 'desc')->take(1)->get();
+      $Ads = Ads::orderBy('created_at', 'desc')->take(12)->get();
       $playing = News::where('category', 'کھیل')->take(2)->get();
       $playingfour = News::where('category', 'کھیل')->take(4)->get();
       $business = News::where('category', 'کاروبار')->take(4)->get();
@@ -54,7 +56,7 @@ class FrontendController extends Controller
         return view('main-site.home.index',compact('Videos','Newslast','News','Regulations','areas','religions','Newsone','playing',
     'playingfour','business','mobile','shoesa','cars','bike','technology','technologyfour',
       'islam','dilcasab','dilcasabfour','boys_name','girls_name','dinner','childeren','girls','health','books',
-    'mazaja','adaba' ));
+    'mazaja','adaba','Ads' ));
     }
     public function about()
     {

@@ -74,134 +74,29 @@
     <div class="swiper-slider-two">
         <div class="swiper-container gallery-top">
             <div class="swiper-wrapper">
-                <div class="swiper-slide swiper-overlay" style="background-image:url(https://cdn.pixabay.com/photo/2016/02/13/13/11/oldtimer-1197800_960_720.jpg)">
+                @foreach ($Ads as $key => $item)
+                <div class="swiper-slide swiper-overlay" style="background-image:url({{ Storage::url($item->image) }})">
                     <div class="swiper-slider-text">
-                        <h2>Transport Used For Traveling</h2>
-                        <p>A car is a means of transport used for traveling from one place to another.</p>
+                        <h2>{{$item->title}}</h2>
+                        <p>{{$item->description }}</p>
                         <div class="btns">
-                            <a href="https://pakpropertyportal.com/"  target="blank_" class="theme-btn" tabindex="-1">Explore traveling</a>
+                            <a href="{{$item->link}}"  target="blank_" class="theme-btn" tabindex="-1">Click Here</a>
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide swiper-overlay" style="background-image:url(https://cdn.pixabay.com/photo/2016/10/22/20/34/wines-1761613_960_720.jpg)">
-                    <div class="swiper-slider-text">
-                        <h2>Fruits and vegetables</h2>
-                        <p>Fruits and vegetables contain important vitamins, minerals and plant chemicals.</p>
-                        <div class="btns">
-                            <a href="https://pakpropertyportal.com/"  target="blank_" class="theme-btn" tabindex="-1">Explore vegetables</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide swiper-overlay" style="background-image:url(https://cdn.pixabay.com/photo/2015/11/19/21/10/glasses-1052010_960_720.jpg)">
-                    <div class="swiper-slider-text">
-                        <h2>books from female authors</h2>
-                        <p>These books from female authors are a sure-fire way to beat those winter blues. 7 Books by Women Authors for Your Winter Reading List.</p>
-                        <div class="btns">
-                            <a href="https://pakpropertyportal.com/"  target="blank_" class="theme-btn" tabindex="-1">Explore Books</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide swiper-overlay" style="background-image:url(https://cdn.pixabay.com/photo/2016/01/05/13/58/apple-1122537_960_720.jpg)">
-                    <div class="swiper-slider-text">
-                        <h2>Fruits and vegetables</h2>
-                        <p>Fruits and vegetables contain important vitamins, minerals and plant chemicals.</p>
-                        <div class="btns">
-                            <a href="https://pakpropertyportal.com/"  target="blank_" class="theme-btn" tabindex="-1">Explore vegetables</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide swiper-overlay" style="background-image:url(https://cdn.pixabay.com/photo/2017/02/02/14/04/grapes-2032838_960_720.jpg)">
-                    <div class="swiper-slider-text">
-                        <h2>Fruits and vegetables</h2>
-                        <p>Fruits and vegetables contain important vitamins, minerals and plant chemicals.</p>
-                        <div class="btns">
-                            <a href="https://pakpropertyportal.com/"  target="blank_" class="theme-btn" tabindex="-1">Explore vegetables</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide swiper-overlay" style="background-image:url(https://cdn.pixabay.com/photo/2016/01/02/02/03/orange-1117645_960_720.jpg)">
-                    <div class="swiper-slider-text">
-                        <h2>Fruits and vegetables</h2>
-                        <p>Fruits and vegetables contain important vitamins, minerals and plant chemicals.</p>
-                        <div class="btns">
-                            <a href="https://pakpropertyportal.com/"  target="blank_" class="theme-btn" tabindex="-1">Explore vegetables</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide swiper-overlay" style="background-image:url(https://cdn.pixabay.com/photo/2016/06/29/17/14/drink-1487304_960_720.jpg)">
-                    <div class="swiper-slider-text">
-                        <h2>Fruits and vegetables</h2>
-                        <p>Fruits and vegetables contain important vitamins, minerals and plant chemicals.</p>
-                        <div class="btns">
-                            <a href="https://pakpropertyportal.com/"  target="blank_" class="theme-btn" tabindex="-1">Explore vegetables</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide swiper-overlay" style="background-image:url(https://cdn.pixabay.com/photo/2020/05/16/17/23/cycling-5178398_960_720.jpg)">
-                    <div class="swiper-slider-text">
-                        <h2>Fruits and vegetables</h2>
-                        <p>Fruits and vegetables contain important vitamins, minerals and plant chemicals.</p>
-                        <div class="btns">
-                            <a href="https://pakpropertyportal.com/"  target="blank_" class="theme-btn" tabindex="-1">Explore vegetables</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide swiper-overlay" style="background-image:url(https://cdn.pixabay.com/photo/2014/02/08/17/32/cricket-262180_960_720.jpg)">
-                    <div class="swiper-slider-text">
-                        <h2>Pakistan Super League </h2>
-                        <p>The Pakistan Super League (PSL) is a professional Twenty20 cricket league contested by six teams representing six cities of Pakistan. </p>
-                        <div class="btns">
-                            <a href="https://pakpropertyportal.com/"  target="blank_" class="theme-btn" tabindex="-1">Explore Cricket</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide swiper-overlay" style="background-image:url(https://cdn.pixabay.com/photo/2015/08/09/13/30/kingfisher-881594_960_720.jpg)">
-                    <div class="swiper-slider-text">
-                        <h2>Animals play </h2>
-                        <p>
-                            Animals play an essential role in human life and planet earth. Ever since an early time, humans have been using animals for their benefit.</p>
-                        <div class="btns">
-                            <a href="https://pakpropertyportal.com/"  target="blank_" class="theme-btn" tabindex="-1">Explore Animals</a>
-                        </div>
-                    </div>
-                </div>
+                @endforeach
+
             </div>
             <div class="swiper-button-next swiper-button-white"></div>
             <div class="swiper-button-prev swiper-button-white"></div>
         </div>
         <div class="swiper-container gallery-thumbs">
             <div class="swiper-wrapper">
-                <div class="swiper-slide swiper-overlay" style="background-image:url(https://cdn.pixabay.com/photo/2016/02/13/13/11/oldtimer-1197800_960_720.jpg)">
-
-
+                @foreach ($Ads as $key => $item)
+                <div class="swiper-slide swiper-overlay" style="background-image:url({{ Storage::url($item->image) }})">
                 </div>
-                <div class="swiper-slide swiper-overlay" style="background-image:url(https://cdn.pixabay.com/photo/2016/10/22/20/34/wines-1761613_960_720.jpg)">
+                @endforeach
 
-                </div>
-                <div class="swiper-slide swiper-overlay" style="background-image:url(https://cdn.pixabay.com/photo/2015/11/19/21/10/glasses-1052010_960_720.jpg)">
-
-                </div>
-                <div class="swiper-slide swiper-overlay" style="background-image:url(https://cdn.pixabay.com/photo/2016/01/05/13/58/apple-1122537_960_720.jpg)">
-
-                </div>
-                <div class="swiper-slide swiper-overlay" style="background-image:url(https://cdn.pixabay.com/photo/2017/02/02/14/04/grapes-2032838_960_720.jpg)">
-
-                </div>
-                <div class="swiper-slide swiper-overlay" style="background-image:url(https://cdn.pixabay.com/photo/2016/01/02/02/03/orange-1117645_960_720.jpg)">
-
-                </div>
-                <div class="swiper-slide swiper-overlay" style="background-image:url(https://cdn.pixabay.com/photo/2016/06/29/17/14/drink-1487304_960_720.jpg)">
-
-                </div>
-                <div class="swiper-slide swiper-overlay" style="background-image:url(https://cdn.pixabay.com/photo/2020/05/16/17/23/cycling-5178398_960_720.jpg)">
-
-                </div>
-                <div class="swiper-slide swiper-overlay" style="background-image:url(https://cdn.pixabay.com/photo/2014/02/08/17/32/cricket-262180_960_720.jpg)">
-
-                </div>
-                <div class="swiper-slide swiper-overlay" style="background-image:url(https://cdn.pixabay.com/photo/2015/08/09/13/30/kingfisher-881594_960_720.jpg)">
-
-                </div>
             </div>
         </div>
     </div>

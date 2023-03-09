@@ -38,6 +38,15 @@
                             <a class="side-menu__item {{ Request::is('admin/video*') ? 'active' : '' }}" href="{{route('admin.video.index')}}" ><i
                                 class="side-menu__icon fa fa-video-camera"></i><span class="side-menu__label">
                                     Video</span></a>
+                                    <a class="side-menu__item {{ Request::is('admin/Ads*') ? 'active' : '' }}" href="{{route('admin.ads.index')}}" ><i
+                                        class="side-menu__icon fa fa-video-camera"></i><span class="side-menu__label">
+                                         Add  Ads</span></a>
+                                  <a class="side-menu__item" href="/config-cache" ><i
+                                                class="side-menu__icon fa fa-video-camera"></i><span class="side-menu__label">
+                                       Cache Clear</span></a>
+                         <a class="side-menu__item" href="/linkstorage" ><i
+                                                        class="side-menu__icon fa fa-video-camera"></i><span class="side-menu__label">
+                                             Cache Storage</span></a>
                         {{-- <a class="side-menu__item {{ Request::is('admin/area*') ? 'active' : '' }}" href="{{route('admin.area.index')}}" ><i
                                 class="side-menu__icon fa fa-globe"></i><span class="side-menu__label">
                                     Area</span></a>

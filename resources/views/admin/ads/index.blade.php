@@ -1,9 +1,10 @@
 
 
+
 @extends('admin.layouts.app')
 
 @section('title')
-    <title>News Paper List | Pakistan top</title>
+    <title>Ads List | Pakistantop</title>
 @endsection
 @push('styles')
     <!-- Data table css -->
@@ -18,12 +19,10 @@
     <div class="app-content">
         <div class="side-app">
             <div class="page-header">
-                <h4 class="page-title">News Paper List</h4>
+                <h4 class="page-title">Ads List</h4>
                 <ol class="breadcrumb">
-
-
                     <li class="breadcrumb-item"><a href="{{ route('admin.home') }}">Dashboard</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">News Paper List</li>
+                    <li class="breadcrumb-item active" aria-current="page">Ads List</li>
                 </ol>
 
             </div>
@@ -31,7 +30,8 @@
                 <div class="col-md-12 col-lg-12">
                     <div class="card">
                         <div class="card-header">
-                            <button type="button" class="btn btn-success btn-sm" ><a Style="color:white;" href="{{ route('admin.regulations.create') }}">Create</a></button>
+
+                            <button type="button" class="btn btn-success btn-sm" ><a Style="color:white;" href="{{ route('admin.ads.create') }}">Create Ads</a></button>
 
                         </div>
                         <div class="card-body">
@@ -40,7 +40,9 @@
                                     <thead>
                                         <tr>
                                             <th>ID</th>
+                                            <th>Image With Ads</th>
                                             <th>Title</th>
+                                            <th>Link</th>
                                             <th>Date</th>
                                             <th width="100px">Action</th>
                                         </tr>
@@ -82,12 +84,15 @@
     $(function () {
 
       var table = $('.data-table').DataTable({
+
           processing: true,
           serverSide: true,
-          ajax: "{{ route('admin.regulations.index') }}",
+          ajax: "{{ route('admin.ads.index') }}",
           columns: [
               {data: 'id', name: 'id'},
+              {data: 'image', name: 'image'},
               {data: 'title', name: 'title'},
+              {data: 'link', name: 'link'},
               {data: 'created_at', name: 'created_at'},
               {data: 'action', name: 'action', orderable: false, searchable: false},
           ]

@@ -5956,7 +5956,8 @@ body.dark {
 
 /** start swiper slider**/
 .swiper-slider-area{
-	padding:80px 0px;
+	/* padding:80px 0px; */
+    margin-top: 30px !important;
 }
 .blog-slider {
 	width: 95%;
@@ -6354,7 +6355,7 @@ width: 100%;
 	line-height: 50px;
 }
 .slick-slider-text h2, .swiper-slider-text h2 {
-    font-size: 50px;
+    font-size: 30px;
     font-family: "montserrat",sans-serif;
     color: #fff;
     margin: 0 0 28px;
@@ -6383,7 +6384,7 @@ width: 100%;
     font-size: 16px;
     font-weight: 500;
     color: #fff;
-    padding: 12px 30px;
+    padding: 6px 20px;
     border: 0;
     border-radius: 2px;
     display: inline-block;
@@ -6393,3 +6394,22 @@ width: 100%;
     top: 50%;
     transform: translateY(-50%);
 }
+@media only screen and (min-width: 800px) {
+    .slick-slider-text h2, .swiper-slider-text h2 {
+        font-size: 50px ;
+        font-family: "montserrat",sans-serif;
+        color: #fff;
+        margin: 0 0 28px;
+        font-weight: 700;
+    }
+    .slick-slider-text .theme-btn, .swiper-slider-text .theme-btn {
+        background-color: #324cec;
+        font-size: 16px;
+        font-weight: 500;
+        color: #fff;
+        padding: 12px 20px;
+        border: 0;
+        border-radius: 2px;
+        display: inline-block;
+    }
+  }

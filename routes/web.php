@@ -19,7 +19,7 @@ use App\Http\Controllers\frontend\FrontendController;
 use App\Http\Controllers\LanguageController;
 use App\Http\Controllers\CustomAuthController;
 use App\Http\Controllers\SocialiteAuthController;
-
+use App\Http\Controllers\Admin\AdsController;
 
 
 
@@ -63,12 +63,7 @@ Route::get('user/logout', function () {
     return redirect()->route('HrcabcEpakistanTop');
 })->name('user.logout');
 
-Route::get('/clear-cache', function () {
-    Artisan::call('cache:clear');
-    Artisan::call('route:clear');
 
-    return "Cache cleared successfully";
- });
 
  Route::get('/config-cache', function () {
     Artisan::call('config:cache');
@@ -78,7 +73,7 @@ Route::get('/clear-cache', function () {
 
  Route::get('/linkstorage', function () {
      Artisan::call('storage:link');
-     return " cleared successfully";
+     return " Cleared Storage successfully";
  });
 
 Route::get('/search', [FrontendController::class, 'search'])->name('main-site.home.search');
@@ -128,6 +123,14 @@ Route::group(['middleware' => ['auth', 'role:Admin'],'prefix' => 'admin'], funct
         Route::get('edit/{id}', [NewsController::class, 'edit'])->name('admin.news.edit');
         Route::post('update/{id}', [NewsController::class, 'update'])->name('admin.news.update');
         Route::get('destroy/{id}', [NewsController::class, 'destroy'])->name('admin.news.destroy');
+
+
+    });
+    Route::group(['prefix' => 'Ads'], function () {
+        Route::get('create', [AdsController::class, 'create'])->name('admin.ads.create');
+        Route::post('store', [AdsController::class, 'store'])->name('admin.ads.store');
+        Route::get('index', [AdsController::class, 'index'])->name('admin.ads.index');
+        Route::get('destroy/{id}', [AdsController::class, 'destroy'])->name('admin.ads.destroy');
 
 
     });

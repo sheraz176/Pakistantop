@@ -59,7 +59,7 @@
 <div class="app-content">
     <div class="side-app">
         <div class="page-header">
-            <h4 class="page-title">Regulations</h4>
+            <h4 class="page-title">News Paper</h4>
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="#">Create</a></li>
                 <li class="breadcrumb-item active" aria-current="page"><a href="">Back</a></li>

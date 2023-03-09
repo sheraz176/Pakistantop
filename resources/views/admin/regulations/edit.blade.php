@@ -58,7 +58,7 @@
 <div class="app-content">
     <div class="side-app">
         <div class="page-header">
-            <h4 class="page-title">Regulations</h4>
+            <h4 class="page-title">News Paper</h4>
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="#">Edit</a></li>
                 <li class="breadcrumb-item active" aria-current="page"><a href="">Back</a></li>
@@ -80,7 +80,7 @@
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">
-                        <div class="card-title">Edit Regulations</div>
+                        <div class="card-title">Edit News Paper</div>
                     </div>
 
                     <form action="{{ route('admin.regulations.update',[$regulations->id]) }}" method="POST" enctype="multipart/form-data">

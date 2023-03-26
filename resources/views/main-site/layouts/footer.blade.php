@@ -25,29 +25,29 @@
             <div class="ftr_block_mobile full ac fl"> <a href="#"> About Us <span class="fwb">|</span> </a> <a href="#"> Contact Us <span class="fwb">|</span> </a> <a href="#"> Advertisment </a> </div>
         </div>
         <div class="ftr_links_block">
-            <div class="ftr_block"> <strong>ABOUT US</strong>
+            <div class="ftr_block"> <strong>Our Projects</strong>
                 <ul class="cat_list_en">
-                    <li> <a href="#"> Contact Us <span class="bgc12">&nbsp;</span> </a> </li>
-                    <li> <a href="#"> Disclaimer <span class="bgc13">&nbsp;</span> </a> </li>
-                    <li> <a href="#"> Privacy Policy <span class="bgc16">&nbsp;</span> </a> </li>
-                    <li> <a href="#"> Advertisment <span class="bgc5">&nbsp;</span> </a> </li>
+                    <li> <a href="https://matrimonial.pakistantop.com/" target="_blank"> Matrimonial <span class="bgc12">&nbsp;</span> </a> </li>
+                    <li> <a href="https://iconenter.com/" target="_blank"> Job Portal <span class="bgc13">&nbsp;</span> </a> </li>
+                    <li> <a href="https://www.myseobank.com/"> My Seo Bank <span class="bgc16">&nbsp;</span> </a> </li>
+                    <li> <a href="https://advertiseinternational.com/" target="_blank"> Advertisment <span class="bgc5">&nbsp;</span> </a> </li>
                 </ul>
             </div>
-            <div class="ftr_block"> <strong>Our Network</strong>
+            <div class="ftr_block"> <strong>Our Websites</strong>
                 <ul class="cat_list_en">
-                    <li> <a href="#"> PakistanPoint <span class="bgc13">&nbsp;</span> </a> </li>
-                    <li> <a target="_blank" href="#"> English News <span class="bgc16">&nbsp;</span> </a> </li>
-                    <li> <a target="_blank" href="#"> Arabic News <span class="bgc5">&nbsp;</span> </a> </li>
+                    <li> <a href="https://www.estore.global/" target="_blank"> Estore.Global <span class="bgc13">&nbsp;</span> </a> </li>
+                    <li> <a target="_blank" href="https://pakpropertyportal.com/">Pak Property Portal <span class="bgc16">&nbsp;</span> </a> </li>
+                    <li> <a target="_blank" href="https://zameen.world/">  Zameen <span class="bgc5">&nbsp;</span> </a> </li>
                     </li>
                 </ul>
             </div>
             <div class="ftr_block"> <strong>Who We Are</strong>
                 <ul class="cat_list_en">
-                    <li> <a href="#"> About Us <span class="bgc6">&nbsp;</span> </a> </li>
-                    <li> <a href="#"> Contact Us <span class="bgc13">&nbsp;</span> </a> </li>
-                    <li> <a href="#"> Send Your Content <span class="bgc1">&nbsp;</span> </a> </li>
-                    <li> <a href="#"> RSS Feed <span class="bgc4">&nbsp;</span> </a> </li>
-                    <li> <a href="#"> News Widget <span class="bgc8">&nbsp;</span> </a> </li>
+                    <li> <a href="https://jobworldbank.com/" target="_blank"> Job World Bank <span class="bgc6">&nbsp;</span> </a> </li>
+                    <li> <a href="https://adsaward.com/" target="_blank"> Ads Award <span class="bgc13">&nbsp;</span> </a> </li>
+                    <li> <a href="https://pakistantop.com/" target="_blank"> Pakistan Top <span class="bgc1">&nbsp;</span> </a> </li>
+                    <li> <a href="https://gwadarib.com/" target="_blank"> GwadarIB <span class="bgc4">&nbsp;</span> </a> </li>
+                    <li> <a href="https://wifiestore.com/" target="_blank"> Wifi Estore <span class="bgc8">&nbsp;</span> </a> </li>
                 </ul>
             </div>
         </div>
